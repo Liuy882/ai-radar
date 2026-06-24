@@ -1,0 +1,48 @@
+name: AI Radar 5日播报
+
+on:
+  schedule:
+    # 每天 UTC 0:00 触发（北京时间 8:00）
+    # 脚本内部会判断是否已满5天
+    - cron: '0 0 * * *'
+  # 允许手动触发（用于测试）
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 允许推送 SUMMARY.md 和 .state.json 回仓库
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 运行 AI Radar
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+        run: python src/main.py
+
+      - name: 提交更新
+        if: success()
+        run: |
+          git config user.name "AI Radar Bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add SUMMARY.md .state.json
+          if git diff --staged --quiet; then
+            echo "无变更，跳过提交。"
+          else
+            git commit -m "📡 更新播报 $(date +%Y-%m-%d)"
+            git push
+          fi
