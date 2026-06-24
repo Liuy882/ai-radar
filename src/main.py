@@ -61,12 +61,14 @@ def main():
         print(f"DeepSeek API 调用失败: {e}")
         raise
 
+    push_failed = False
     print("\n[3/4] 推送到微信...")
     try:
         push_to_wechat(summary)
     except Exception as e:
         print(f"PushPlus 推送失败: {e}")
-        raise
+        push_failed = True
+        # 不中断流程，继续保存摘要
 
     print("\n[4/4] 写入 SUMMARY.md...")
     with open(SUMMARY_FILE, "w", encoding="utf-8") as f:
@@ -74,6 +76,10 @@ def main():
 
     update_state()
     print("\n✅ 完成！下期播报将在5天后推送。\n")
+
+    if push_failed:
+        print("⚠️ 注意: PushPlus 推送失败，摘要已保存到 SUMMARY.md")
+        exit(1)
 
 
 if __name__ == "__main__":
