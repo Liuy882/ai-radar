@@ -1,39 +1,46 @@
-# 🤖 AI 热点 5 日播报（06.25 - 06.30）
+# 🤖 AI 热点 5 日播报（07.01 - 07.06）
 
 ## 🔥 GitHub 热门 AI 项目
 
-1. **TianhangZhuzth/Fundamental-Ava** (⭐341): 一个构建“数字人类”的开源项目，目标打造自主、协作且具备社交智能的智能体，代表了AI Agent从工具向“角色”演进的趋势。
-2. **eli-labz/Godcoder** (⭐252): 一款本地优先的开源编码Agent，强调代码安全（仅向模型提供商发送数据），并具备自主构建测试框架的能力，是“本地+私有”AI开发工具的代表。
-3. **sums001/Deepseek-API** (⭐105): 对DeepSeek聊天功能进行逆向工程，封装成兼容OpenAI API的REST接口，无需API密钥即可调用V4和R1模型，降低了开发者使用前沿模型的门槛。
-4. **Aliu-AiRobot/ESEILANE** (⭐135): 高性能知识图谱引擎，专为AI、LLM和GraphRAG设计，是构建下一代智能应用中结构化知识检索的关键基础设施。
-5. **GraeLefix/GITVERSE** (⭐133): 一个代码库逆向工程工具，能将任何代码库解析为“构建提示词”，输出架构分解图和AI可重建的蓝图，极大便利了代码理解和AI辅助重构。
-6. **wanshuiyin/Anti-Autoresearch** (⭐63): 一款针对AI自动生成论文的“评审端”取证工具，能检测61种伪造信号，为学术诚信提供了技术对抗手段。
-7. **OvOhao/auto-paper-collecter** (⭐36): LLM驱动的个人研究雷达，自动聚合arXiv、Crossref等平台的最新论文，是科研人员追踪前沿动态的利器。
+1. **[elder-plinius/T3MP3ST](https://github.com/elder-plinius/T3MP3ST)** (⭐2274): 一个多智能体自主红队测试平台，专为AI安全而生。它通过多Agent协作进行攻击性安全测试，是当前AI安全领域最受关注的开源项目之一，反映了行业对AI系统鲁棒性的迫切需求。
+
+2. **[jmerelnyc/Talos](https://github.com/jmerelnyc/Talos)** (⭐720): 去中心化AI推理网络GPU客户端。通过WebSocket连接Talos网络，提供开放模型推理服务并获取收益，代表了“算力共享”这一新兴趋势，让小玩家也能参与AI算力市场。
+
+3. **[SuperJJ007/CSSwitch](https://github.com/SuperJJ007/CSSwitch)** (⭐281): 一个为Claude Science设计的API转换工具，能一键接入DeepSeek、通义千问、智谱GLM等国产模型。解决了模型切换的痛点，是国产模型与海外生态融合的典型代表。
+
+4. **[ai4s-research/open-science](https://github.com/ai4s-research/open-science)** (⭐203): 开源科学AI工作台，定位为Claude Science的开源替代品。支持本地优先、模型无关、可复现的AI研究，基于Tauri + MCP + Agent技能构建，是科学计算领域值得关注的工具。
+
+5. **[HUANGCHIHHUNGLeo/claude-real-video](https://github.com/HUANGCHIHHUNGLeo/claude-real-video)** (⭐165): 让任意LLM“看懂”视频的解决方案。通过将视频帧转化为LLM可理解的文本序列，打破了传统多模态模型的门槛，创意十足且实用。
+
+6. **[MONZikWasTaken/Framegen](https://github.com/MONZikWasTaken/Framegen)** (⭐8): 一个在浏览器中实现实时神经帧插值的Chrome扩展。基于WebGPU和WGSL，2.9MB的小模型即可实现2-6倍帧率提升，是AI驱动前端性能优化的有趣尝试。
+
+7. **[Victor-Kipruto-Rop/mpesa_safaricom-fraud_anomaly_detection](https://github.com/Victor-Kipruto-Rop/mpesa_safaricom-fraud_anomaly_detection)** (⭐7): 针对M-Pesa移动支付的实时欺诈检测系统。结合Kafka/Flink流处理与ML风险评分，展示了AI在金融风控领域的落地能力，尤其适合新兴市场。
 
 ## 🧠 国际 Agent 更新
 
-- **OpenAI**: 预览了下一代模型 **GPT-5.6 Sol**，宣称在编程、科学和网络安全方面能力更强，并配备了最先进的安全栈。同时，发布了关于AI对欧盟就业影响的报告，并与惠普（HP）建立了Frontier战略合作伙伴关系，将AI部署到客户体验和企业运营中。
-- **Anthropic (Claude)**: Claude Code（编程Agent）被用于分析个人MRI影像，展示了其在专业领域（医疗影像解读）的潜力。同时，美国当局允许Anthropic向“可信”的美国组织发布名为 **Mythos** 的AI模型，该模型在网络安全基准测试中表现突出。
-- **Google (Gemini)**: 发布了关于“全栈AI”的科普文章，并更新了Google Finance功能。一则爆料称，Meta曾秘密使用Gemini进行客户服务、广告工具和内容审核，后因使用量过大而被切断。这侧面印证了Gemini在企业级应用中的竞争力。
-- **DeepSeek**: 发布了 **DSpark** 论文，提出了一种推测性解码（Speculative Decoding）技术以加速LLM推理，这是提升模型部署效率的重要突破。
+- **Claude Code (Anthropic)**: 因“后门风险”被阿里巴巴禁止在工作场所使用，引发广泛争议。同时，其“Mythos Preview”版本被曝与CVE漏洞严重性激增有关，安全性与功能迭代的平衡成为焦点。
+- **Claude (Anthropic)**: 社区出现“Claude-real-video”项目，让任何LLM（包括Claude）都能通过文本描述理解视频内容，拓展了Claude的应用边界。
+- **Gemini (Google)**: 发布2026年6月更新汇总，包括Pixel Drop等新功能。同时，Google在纽约举办AI教育峰会，推动AI进课堂，展示其深耕教育场景的决心。
+- **ZCode (智谱AI)**: 推出对标Claude Code的“ZCode”工具，由智谱AI开发，表明国内厂商正加速布局AI编程助手赛道。
 
 ## 🇨🇳 国内 Agent 更新
 
-- **DeepSeek (深度求索)**: 除了DSpark论文，其开源模型通过反向工程API项目再次引发关注，表明其模型能力（尤其是V4和R1）受到开发者社区的追捧。
-- **智谱AI (ChatGLM)**: 其开源模型 **GLM 5.2** 在网络安全基准测试中击败了Claude，这标志着国产模型在特定垂直领域（如网络安全）已达到世界领先水平。
-- **乐动机器人**: 获得港股新贵投资，押注“物理AI”，致力于打造连接数字与物理世界的核心基础设施，反映了国内资本对具身智能和机器人领域的看好。
+- **通义千问 (阿里)**: 阿里巴巴因“后门风险”禁止员工使用Claude Code，侧面推动内部AI工具链的自研与合规化。同时，阿里清华联合论文入选ICML杰出论文，提出极简扩散模型推理方案，技术实力得到国际认可。
+- **智谱清言/ChatGLM (智谱AI)**: 推出“ZCode”编程助手，直接对标Claude Code，并已开放使用。此外，CSSwitch工具可一键接入智谱GLM API，降低了开发者迁移成本。
+- **DeepSeek (深度求索)**: 被CSSwitch工具列为可接入的API之一，表明其模型在开发者社区中具备一定影响力，正在成为国产模型生态的重要组成部分。
+- **小米MiMo**: 同样被CSSwitch工具支持，小米在AI大模型领域的存在感正在增强，但具体更新信息较少。
 
 ## 📰 AI 行业动态
 
-1. **福特AI质检翻车，返聘“灰胡子”老技工**: 福特汽车因AI质检系统表现不佳，被迫重新返聘经验丰富的退休质检员。这警示我们，在需要高度判断力和领域知识的任务中，AI并非万能，人机协同仍是务实之选。
-2. **Brown大学曝出大规模AI作弊丑闻**: 教授公开谴责学生在考试中使用AI进行大规模欺诈，引发了关于AI时代学术诚信边界的激烈讨论，教育体系面临前所未有的挑战。
-3. **Meta被曝秘密使用Google Gemini**: 这一事件暴露了AI行业竞争的暗流——即便是巨头也可能在幕后依赖竞争对手的技术。Meta因使用量过大被“断供”，显示出AI基础设施的依赖风险。
-4. **OpenAI倾向于推迟至明年IPO**: 这一决定可能反映了其在商业化路径上的谨慎，或是为了在IPO前进一步巩固技术优势和营收模型。
-5. **开源与闭源LLM的差距讨论再起**: 一篇博客分析了开源权重模型与闭源模型之间的差距，表明尽管开源进展迅速，但在某些前沿能力上，闭源模型仍占据优势。
+1. **AI专利争议再起：日本最高法院裁定AI不能列为发明人**。这一判决明确了AI在知识产权领域的法律地位，为全球AI相关法律框架提供了重要参考。
+2. **扎克伯格坦言AI Agent开发速度慢于预期**。Meta CEO在公开场合表达了对AI Agent落地难度的担忧，与社区中关于“Agentic Coding”的讨论形成呼应，反映了行业从模型能力到实际应用之间的鸿沟。
+3. **阿里巴巴封杀Claude Code，国产替代加速**。阿里以“后门风险”为由全面禁止Claude Code，同时智谱推出ZCode、CSSwitch等工具，国产AI编程工具生态迎来发展窗口期。
+4. **2026上半年近90家AI初创公司跻身独角兽**。这一数字创下历史纪录，表明尽管技术落地存在挑战，资本对AI赛道的热情依然高涨，尤其在Agent、行业垂直应用等领域。
+5. **“AI信心剧场”现象引发反思**。一篇热帖呼吁停止AI领域的过度自信展示，指出基准测试与实际体验的差距，以及开放模型与闭源模型对比中的误导性结论，引发社区对评估标准的讨论。
 
 ## 💡 本周洞察
 
-本周最核心的趋势是 **“AI Agent的实用化与风险暴露”**。一方面，从Godcoder到Claude Code，Agent正从实验室走向开发者的日常，甚至涉足医疗影像分析；另一方面，福特AI质检的失败和Brown大学的作弊丑闻，尖锐地提醒我们AI在“可靠性”和“伦理边界”上的短板。此外，**模型安全与地缘政治**（如Mythos模型仅限“可信”美国组织使用）以及**企业级AI基础设施**（如惠普与OpenAI的深度合作）成为新的焦点。未来，AI领域的竞争将不仅是模型能力的比拼，更是围绕**安全、成本、部署效率以及如何与人类专家互补**的综合较量。
+本周最核心的趋势是 **“AI Agent从狂热到理性”**：扎克伯格的公开表态、阿里巴巴对Claude Code的封杀、以及社区对“Agentic Coding”效果的实证研究，都在提醒我们AI Agent的落地远比想象中复杂。与此同时，**国产AI生态的自主化进程正在加速**，从工具链（CSSwitch、ZCode）到模型（DeepSeek、智谱），都在试图构建不依赖海外巨头的闭环。未来一周，建议重点关注**AI安全与合规**（专利、后门风险）以及**开源科学工具**（如Open Science）的进展，它们可能是下一波增长的关键。
 
 ---
-*🤖 由 AI Radar 自动生成 · 下期播报预计 06.30 后约5天推送*
+*🤖 由 AI Radar 自动生成 · 下期播报预计 07.06 后约5天推送*
