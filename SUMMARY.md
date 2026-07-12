@@ -1,46 +1,38 @@
-# 🤖 AI 热点 5 日播报（07.01 - 07.06）
+# 🤖 AI 热点 5 日播报（07.07 - 07.12）
 
 ## 🔥 GitHub 热门 AI 项目
 
-1. **[elder-plinius/T3MP3ST](https://github.com/elder-plinius/T3MP3ST)** (⭐2274): 一个多智能体自主红队测试平台，专为AI安全而生。它通过多Agent协作进行攻击性安全测试，是当前AI安全领域最受关注的开源项目之一，反映了行业对AI系统鲁棒性的迫切需求。
-
-2. **[jmerelnyc/Talos](https://github.com/jmerelnyc/Talos)** (⭐720): 去中心化AI推理网络GPU客户端。通过WebSocket连接Talos网络，提供开放模型推理服务并获取收益，代表了“算力共享”这一新兴趋势，让小玩家也能参与AI算力市场。
-
-3. **[SuperJJ007/CSSwitch](https://github.com/SuperJJ007/CSSwitch)** (⭐281): 一个为Claude Science设计的API转换工具，能一键接入DeepSeek、通义千问、智谱GLM等国产模型。解决了模型切换的痛点，是国产模型与海外生态融合的典型代表。
-
-4. **[ai4s-research/open-science](https://github.com/ai4s-research/open-science)** (⭐203): 开源科学AI工作台，定位为Claude Science的开源替代品。支持本地优先、模型无关、可复现的AI研究，基于Tauri + MCP + Agent技能构建，是科学计算领域值得关注的工具。
-
-5. **[HUANGCHIHHUNGLeo/claude-real-video](https://github.com/HUANGCHIHHUNGLeo/claude-real-video)** (⭐165): 让任意LLM“看懂”视频的解决方案。通过将视频帧转化为LLM可理解的文本序列，打破了传统多模态模型的门槛，创意十足且实用。
-
-6. **[MONZikWasTaken/Framegen](https://github.com/MONZikWasTaken/Framegen)** (⭐8): 一个在浏览器中实现实时神经帧插值的Chrome扩展。基于WebGPU和WGSL，2.9MB的小模型即可实现2-6倍帧率提升，是AI驱动前端性能优化的有趣尝试。
-
-7. **[Victor-Kipruto-Rop/mpesa_safaricom-fraud_anomaly_detection](https://github.com/Victor-Kipruto-Rop/mpesa_safaricom-fraud_anomaly_detection)** (⭐7): 针对M-Pesa移动支付的实时欺诈检测系统。结合Kafka/Flink流处理与ML风险评分，展示了AI在金融风控领域的落地能力，尤其适合新兴市场。
+1. **Doriandarko/texts-to-transformer** (⭐355) — 在Mac上从零训练一个微型Transformer，直接用自己的iMessage历史数据，是个人化AI模型的极佳入门实践。
+2. **bkingfilm/lapian-notes** (⭐272) — “拉片笔记”，将电影转化为AI辅助的深度分析工具，支持本地抽帧、剧情泳道、情绪曲线等，影视从业者和爱好者的利器。
+3. **SilentFleetKK/ai-market-pulse** (⭐151) — 一个零代码的量化研究仪表盘，能把你的自选股列表自动生成每日AI市场分析报告。
+4. **EXXETA/exxperts** (⭐126) — 本地优先的持久化AI聊天室，支持受控的、需审批的记忆机制，强调隐私与协作的平衡。
+5. **amitshekhariitbhu/transformers-explained** (⭐121) — 一步步拆解Transformer架构的教程项目，涵盖所有注意力变体、位置编码和内部层，适合进阶学习。
+6. **ohad6k/ditto** (⭐108) — 挖掘Claude Code和Codex的日志，自动生成一个本地的 `you.md` 智能体配置文件，将使用习惯转化为个人Agent。
+7. **loop-js/loop.js** (⭐63) — 一个“循环工程”框架，定义目标后，Agent会反复运行直到被一个持怀疑态度的只读验证Agent确认解决，新颖的Agent开发范式。
 
 ## 🧠 国际 Agent 更新
 
-- **Claude Code (Anthropic)**: 因“后门风险”被阿里巴巴禁止在工作场所使用，引发广泛争议。同时，其“Mythos Preview”版本被曝与CVE漏洞严重性激增有关，安全性与功能迭代的平衡成为焦点。
-- **Claude (Anthropic)**: 社区出现“Claude-real-video”项目，让任何LLM（包括Claude）都能通过文本描述理解视频内容，拓展了Claude的应用边界。
-- **Gemini (Google)**: 发布2026年6月更新汇总，包括Pixel Drop等新功能。同时，Google在纽约举办AI教育峰会，推动AI进课堂，展示其深耕教育场景的决心。
-- **ZCode (智谱AI)**: 推出对标Claude Code的“ZCode”工具，由智谱AI开发，表明国内厂商正加速布局AI编程助手赛道。
+- **ChatGPT (OpenAI)** — GPT-5.6 正式成为 Microsoft 365 Copilot 的首选模型，覆盖Word、Excel、PPT等全办公套件；同时推出面向企业级复杂任务的“ChatGPT Work”计划。
+- **Gemini (Google)** — 在Gemini API中全面推出“托管Agent”功能，支持后台任务、远程MCP连接等，标志着Google在Agent编排上迈出重要一步。
+- **Claude (Anthropic)** — 社区生态持续活跃，基于Claude Code的辅助工具（如Geosql地理空间技能、ditto个人配置提取）层出不穷，开发者生态日益丰富。
+- **GitHub Copilot (Microsoft)** — 尽管未直接更新，但GPT-5.6成为M365 Copilot核心模型，意味着Copilot系列产品的底层能力已迎来重大升级。
 
 ## 🇨🇳 国内 Agent 更新
 
-- **通义千问 (阿里)**: 阿里巴巴因“后门风险”禁止员工使用Claude Code，侧面推动内部AI工具链的自研与合规化。同时，阿里清华联合论文入选ICML杰出论文，提出极简扩散模型推理方案，技术实力得到国际认可。
-- **智谱清言/ChatGLM (智谱AI)**: 推出“ZCode”编程助手，直接对标Claude Code，并已开放使用。此外，CSSwitch工具可一键接入智谱GLM API，降低了开发者迁移成本。
-- **DeepSeek (深度求索)**: 被CSSwitch工具列为可接入的API之一，表明其模型在开发者社区中具备一定影响力，正在成为国产模型生态的重要组成部分。
-- **小米MiMo**: 同样被CSSwitch工具支持，小米在AI大模型领域的存在感正在增强，但具体更新信息较少。
+- **通义千问 (阿里)** — 中国首个十万卡集群已落成，由全国产算力支撑，已跑通300余项应用，为大规模AI模型训练提供坚实基础。
+- **具身智能赛道** — 近百名玩家涌入具身数据行业，一年融资44.7亿，行业正从“造机器人”向“卖数据/训练数据”的商业模式演进。
 
 ## 📰 AI 行业动态
 
-1. **AI专利争议再起：日本最高法院裁定AI不能列为发明人**。这一判决明确了AI在知识产权领域的法律地位，为全球AI相关法律框架提供了重要参考。
-2. **扎克伯格坦言AI Agent开发速度慢于预期**。Meta CEO在公开场合表达了对AI Agent落地难度的担忧，与社区中关于“Agentic Coding”的讨论形成呼应，反映了行业从模型能力到实际应用之间的鸿沟。
-3. **阿里巴巴封杀Claude Code，国产替代加速**。阿里以“后门风险”为由全面禁止Claude Code，同时智谱推出ZCode、CSSwitch等工具，国产AI编程工具生态迎来发展窗口期。
-4. **2026上半年近90家AI初创公司跻身独角兽**。这一数字创下历史纪录，表明尽管技术落地存在挑战，资本对AI赛道的热情依然高涨，尤其在Agent、行业垂直应用等领域。
-5. **“AI信心剧场”现象引发反思**。一篇热帖呼吁停止AI领域的过度自信展示，指出基准测试与实际体验的差距，以及开放模型与闭源模型对比中的误导性结论，引发社区对评估标准的讨论。
+1. **苹果起诉OpenAI，指控前高管窃取商业机密** — 苹果AI硬件负责人Tang Tan离职加入OpenAI后，苹果起诉其涉嫌窃取机密，并“指导”OpenAI挖走更多员工，是硅谷罕见的顶级人才与法律纠纷。
+2. **GitLost安全事件：GitHub AI Agent被诱导泄露私有仓库** — 安全团队通过巧妙提示，成功让GitHub的AI Agent泄露了私有仓库内容，再次引发对AI Agent安全边界的广泛讨论。
+3. **微软发布Flint：面向AI Agent的可视化编程语言** — 一个全新的可视化语言，让开发者能更直观地设计和调试复杂AI Agent的行为流程，降低Agent开发门槛。
+4. **OpenAI GPT-5.6成为M365 Copilot首选模型** — 标志着OpenAI与微软的深度绑定进入新阶段，GPT-5.6的“每token更智能、性价比更高”特性开始大规模赋能企业办公。
+5. **“LLM倦怠”现象引热议** — 一篇名为《I think I have LLM burnout》的博客在HN引发强烈共鸣，讨论AI工具过度使用后的疲劳感，提醒行业关注人机交互的可持续性。
 
 ## 💡 本周洞察
 
-本周最核心的趋势是 **“AI Agent从狂热到理性”**：扎克伯格的公开表态、阿里巴巴对Claude Code的封杀、以及社区对“Agentic Coding”效果的实证研究，都在提醒我们AI Agent的落地远比想象中复杂。与此同时，**国产AI生态的自主化进程正在加速**，从工具链（CSSwitch、ZCode）到模型（DeepSeek、智谱），都在试图构建不依赖海外巨头的闭环。未来一周，建议重点关注**AI安全与合规**（专利、后门风险）以及**开源科学工具**（如Open Science）的进展，它们可能是下一波增长的关键。
+本周最显著的趋势是 **“Agent安全与治理”** 成为焦点：GitLost事件暴露了AI Agent在访问控制上的脆弱性，而苹果诉OpenAI案则将人才流动与知识产权保护推上风口。与此同时，GPT-5.6的全面铺开和Google托管Agent的推出，标志着AI从“对话式工具”向“企业级自主执行体”的加速演进。开发者社区也呈现出明显的 **“本地优先”** 和 **“个人化”** 趋势——从本地训练Transformer到本地Agent配置提取，隐私与可控性正成为下一代AI工具的核心竞争力。
 
 ---
-*🤖 由 AI Radar 自动生成 · 下期播报预计 07.06 后约5天推送*
+*🤖 由 AI Radar 自动生成 · 下期播报预计 07.12 后约5天推送*
