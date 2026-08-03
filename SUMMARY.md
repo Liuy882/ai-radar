@@ -1,54 +1,62 @@
-# 🤖 AI 热点 5 日播报（07.24 - 07.29）
+# 🤖 AI 热点 5 日播报（07.29 - 08.03）
 
 ## 🔥 GitHub 热门 AI 项目
 
-1. **deerwork-ai/deer-workflow** (⭐325) — 一个开源图工程运行时，将编排保留在TypeScript中，并将语义工作委托给可替换的Agent运行时，是构建复杂多Agent工作流的灵活基础设施。链接：https://github.com/deerwork-ai/deer-workflow
+1. **[FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c)** — 2.78万亿参数的 Kimi K3 在纯 C99 实现下，仅用 8.24GB 内存即可在单 CPU 上跑推理，无 BLAS、无框架、无 GPU。开源社区对"小内存跑大模型"的极致追求，令人震撼。
 
-2. **krishagarwal314/autodev-studio** (⭐79) — 自主多Agent SDLC工具，用自然语言描述功能，AI Agent自动完成编码、测试、审查并提交PR，基于仓库的一次性知识库。链接：https://github.com/krishagarwal314/autodev-studio
+2. **[melonmath/microkimi](https://github.com/melonmath/microkimi)** — 用纯 Rust（零依赖）从零重写 Kimi K3 和 DeepSeek-V4-Flash-0731 架构，并逐行验证与官方实现 1:1 一致。架构逆向工程的典范，对理解前沿模型内部机制极有价值。
 
-3. **yaoleifly/ai-stock-pool** (⭐78) — AI产业链股票池，支持美股/A股映射、主动发现、政策压力测试和一键部署，适合量化投资研究者。链接：https://github.com/yaoleifly/ai-stock-pool
+3. **[Anionex/codex-vision-proxy](https://github.com/Anionex/codex-vision-proxy)** — 让纯文本 LLM 在 Codex 中调用内置看图工具（view_image）的方案，附带为纯文本模型设计的视觉工具包。巧妙解决文本模型的视觉短板，实用性极强。
 
-4. **cocofhu/approving** (⭐73) — 开源、自托管的平台，将编码Agent转化为可视化、可审查、可恢复的交付工作流，Agent在真实Docker沙箱中运行并支持人工审批节点。链接：https://github.com/cocofhu/approving
+4. **[0xwilliamortiz/ratchet](https://github.com/0xwilliamortiz/ratchet)** — 让 Agent 读取规则并检查自身是否遵守。Agent 行为合规性验证是当前行业痛点，这个轻量级方案（JavaScript，⭐411）直击要害。
 
-5. **Pinvou/pinvou-agent** (⭐47) — 开源桌面AI Agent，集成工具、文件、知识、工作流并输出真实交付物，适合本地化AI助手需求。链接：https://github.com/Pinvou/pinvou-agent
+5. **[aigclink/geolook](https://github.com/aigclink/geolook)** — 开源端到端 GEO（生成式引擎优化）实现：状态分析、诊断、策略、工单、执行、验证全链路。GEO 正成为 SEO 之后的下一波流量红利，值得提前布局。
 
-6. **hkc5/cursor-bridge** (⭐39) — 一个Rust二进制文件，让你能通过Cursor订阅运行Claude Code，零配置即可实现跨平台AI编码。链接：https://github.com/hkc5/cursor-bridge
+6. **[simonlin1212/vibe-astock](https://github.com/simonlin1212/vibe-astock)** — A 股短线复盘看板：涨停池、连板梯队、龙虎榜、板块资金一屏看完。情绪指标纯本地计算，AI 只负责把数据串成盘面研判——"数据本地算，AI 只写稿"的设计思路很务实。
 
-7. **sumitsingh4411/ai-roadmap** (⭐5) — 免费开源AI学习路线图，从零开始，包含34节课程，从Python基础到部署LLM应用。链接：https://github.com/sumitsingh4411/ai-roadmap
+7. **[juxhinr/bindwidth](https://github.com/juxhinr/bindwidth)** — 基于证据的本地 LLM 推理规模与 TCO（总拥有成本）计算器。企业部署本地模型前的算力/成本评估工具，实用价值高。
+
+8. **[harrrshall/barunlm-35m](https://github.com/harrrshall/barunlm-35m)** — 仅 3500 万参数的 Base LM，在 57 亿 token 上训练。小参数模型的效率探索，对端侧和资源受限场景有意义。
+
+9. **[artbyjazi/autoclip](https://github.com/artbyjazi/autoclip)** — 本地优先的开源 AI 视频剪辑器：长视频进，字幕烧录+说话人追踪的 9:16 竖屏剪辑出。完全离线可用（Whisper + Ollama），内容创作者的效率神器。
+
+10. **[AFan4724/clone-chat](https://github.com/AFan4724/clone-chat)** — 用 LLM 复刻聊天对象的本地对话 Agent：导入真实聊天记录，学习 TA 的语气、表情和回复节奏，支持语音、主动联系和长期记忆，数据全在本地。数字分身/情感陪伴赛道的代表性开源项目。
 
 ## 🧠 国际 Agent 更新
 
-- **Claude (Anthropic)** — 发布 **Claude Opus 5**，引发社区巨大讨论（HN 1777赞）。同时推出Claude Mythos Preview，用于发现密码学算法弱点，并更新了Claude 5代模型的上下文工程新规则。Claude Cookbook也同步上线，提供实用示例。
+- **Claude (Anthropic)** — 本周经历了一次"跨所有模型的高错误率"事件（已解决），引发社区对 Claude 服务稳定性的讨论。同时，Claude Code 生态持续活跃，社区出现 **Agent-Manager**（Tmux TUI 统一管理 Claude Code/Codex/OpenCode）和 **qm**（多人 Agent 协作工作台，HN 获 665 赞）等周边工具，显示 Claude Code 已成为 Agent 开发的事实标准之一。
 
-- **OpenAI** — 发布新研究，展示科学家如何使用AI编码Agent现代化科学计算，加速基因组学等领域的软件开发。另一项研究显示，AI正在拓展工作边界，ChatGPT用户跨角色承担任务，重塑岗位边界。
+- **OpenAI / ChatGPT** — 发布多项数学和理论计算机科学进展（几何、密码学、复杂性理论），并宣布"构建富足智能"的全栈战略：让先进 AI 更强大、更便宜、更普及。此外，Sora 幕后故事曝光——奥特曼也逃不过刷 TikTok 上瘾，侧面反映团队对短视频数据的重视。
 
-- **Google Gemini** — 推出Gemini API Managed Agents，支持3.6 Flash模型、Hooks和Triggers，简化Agent开发与部署。
+- **GitHub Copilot (Microsoft)** — Google 借助 AI 修复 Chrome 漏洞的效率大幅提升（6 月修复量超过过去两年总和），微软正在将类似 AI 辅助安全能力整合进 Copilot 与 Azure 安全体系中。
 
-- **Meta Llama** — 开源权重AI被类比为“Kubernetes时刻”，强调其正在成为AI基础设施的标准层（HN热帖411赞）。
+- **Google Gemini** — Gemini 驱动的 Chrome 漏洞修复效率引发行业关注（HN 热帖 572 赞），AI 辅助代码审计与漏洞修复正在成为安全领域的新范式。
+
+- **Llama (Meta)** — 虽然本周无重大版本更新，但社区围绕 Llama 的微调与部署工具持续涌现，Llama 仍是开源模型生态的核心底座。
 
 ## 🇨🇳 国内 Agent 更新
 
-- **豆包/扣子 (字节跳动)** — 豆包搜索功能正式开放给Agent，实现“走出豆包”的能力扩展，让Agent可以自主调用搜索获取实时信息。
+- **Kimi (月之暗面)** — 本周 GitHub 社区出现两个重量级项目：**kimi-k3-in-c** 用纯 C 在单 CPU 上跑通 2.78 万亿参数推理（8.24GB 内存），**microkimi** 用 Rust 从零重写 Kimi K3 架构并验证 1:1 一致。这两个项目侧面印证 Kimi K3 架构的开源影响力，也说明国内模型在端侧/低成本推理方向的领先探索。
 
-- **Kimi (月之暗面)** — Kimi K3与Unlimited OCR包揽全球前二，中国开源模型持续刷屏海外，展现强大的多模态与文本理解能力。
+- **DeepSeek (深度求索)** — DeepSeek-V4-Flash-0731 架构被开源社区用 Rust 逆向重写（microkimi 项目），显示 DeepSeek 最新模型的架构设计受到国际开发者高度关注。
 
-- **智谱清言/ChatGLM** — 教育AI进入深水区，智谱提出“仿真思维”理念，强调从工具效率转向认知理解，让AI辅助教师回归育人本质。
+- **通义千问 (阿里)** — 本周未观测到重大版本更新，但阿里在 AI 基础设施和企业级 Agent 落地方面持续投入。
 
 ## 📰 AI 行业动态
 
-1. **AI公司大量购买并销毁古籍用于训练** — HN热帖揭露，AI公司购买稀有古董书籍，用液压切割机撕页扫描后销毁，引发版权与文化遗产保护争议。
+1. **EU AI Act 第 50 条正式生效（8 月 2 日）**：未披露 AI 生成内容（尤其是幻觉内容）将面临违法和高额罚款。这标志着全球 AI 内容合规进入强监管时代，对内容平台和 Agent 开发者的影响深远。
 
-2. **Claude Opus 5发布引发服务波动** — 发布后出现Elevated errors，Claude状态页面报告故障，但社区对模型能力评价极高。
+2. **前沿实验室 Agent 入侵事件时间线公开**：Hugging Face 发布"2026 年 7 月前沿实验室 Agent 入侵事件"技术时间线，揭示 Agent 安全攻防的严峻现实。Agent 安全问题已从理论讨论进入真实攻防阶段。
 
-3. **OpenAI“黑客Agent”故事遭质疑** — 有评论呼吁对OpenAI的“流氓黑客Agent”叙事保持怀疑态度，认为可能涉及夸大安全风险。
+3. **AI 初创公司正在减少论文发表**：Science 杂志报道 AI 头部初创公司几乎不再发表研究成果，引发对 AI 研究透明度和学术生态的担忧。
 
-4. **AI对就业的真实影响** — 斯坦福政策简报分析AI对就业的实际影响，试图区分炒作与现实，指出AI更多是扩展工作内容而非直接替代。
+4. **LLM 路由器被证伪**：Manifest 团队宣布弃用自研 LLM 路由器，称"每个人都在构建 LLM 路由器，但我们废弃了它"。模型路由的 ROI 受到质疑，简单方案可能更优。
 
-5. **LLM进入Debian生态** — Debian社区就LLM使用提出三项提案，标志着开源操作系统开始系统性考虑AI集成。
+5. **AI 美学成为讨论热点**："The AI Aesthetic" 一文在 HN 引发热议（376 赞），AI 生成内容的视觉风格正在形成独特的审美范式，设计界面临新课题。
 
 ## 💡 本周洞察
 
-本周最显著的趋势是**AI Agent正从“对话工具”向“自主工作流引擎”演进**，无论是开源项目（deer-workflow、autodev-studio）还是商业产品（Gemini Managed Agents、豆包开放搜索），都在强化Agent的自主编排与任务执行能力。同时，**Claude Opus 5的发布与古籍销毁争议**形成了鲜明的技术乐观主义与伦理反思的张力，提醒行业在追求能力跃升的同时，必须正视数据获取的边界与文化遗产保护问题。未来一周，值得关注多Agent协作框架的标准化进程，以及AI公司如何回应古籍扫描风波。
+**本周最值得关注的是"让大模型跑在普通硬件上"的集体努力**——Kimi K3 在 8GB 内存的 CPU 上跑推理、35M 参数的 BarunLM、纯 Rust 的架构重写，都在指向同一个方向：模型能力的释放不再依赖云端巨量算力，端侧/本地化部署正在成为现实。与此同时，**Agent 的安全与合规问题（EU AI Act 生效、Agent 入侵事件、ratchet 规则检查工具）正从边缘话题变成行业刚需**——当 Agent 开始真正执行任务，规则遵循、内容披露和边界控制就不再是锦上添花，而是决定 Agent 能否大规模商用的生死线。
 
 ---
-*🤖 由 AI Radar 自动生成 · 下期播报预计 07.29 后约5天推送*
+*🤖 由 AI Radar 自动生成 · 下期播报预计 08.03 后约5天推送*
