@@ -1,62 +1,49 @@
-# 🤖 AI 热点 5 日播报（07.29 - 08.03）
+# 🤖 AI 热点 5 日播报（08.04 - 08.09）
 
 ## 🔥 GitHub 热门 AI 项目
 
-1. **[FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c)** — 2.78万亿参数的 Kimi K3 在纯 C99 实现下，仅用 8.24GB 内存即可在单 CPU 上跑推理，无 BLAS、无框架、无 GPU。开源社区对"小内存跑大模型"的极致追求，令人震撼。
+1. **[i3T4AN/KADATH](https://github.com/i3T4AN/KADATH)** (⭐160, Python) — 进化式多智能体运行时，通过可复现的epoch循环来培育、评估并改进自主Agent。这种"适者生存"的Agent进化思路，为复杂任务自动化提供了新的范式。
 
-2. **[melonmath/microkimi](https://github.com/melonmath/microkimi)** — 用纯 Rust（零依赖）从零重写 Kimi K3 和 DeepSeek-V4-Flash-0731 架构，并逐行验证与官方实现 1:1 一致。架构逆向工程的典范，对理解前沿模型内部机制极有价值。
+2. **[waiterve/wai-play](https://github.com/waiterve/wai-play)** (⭐188, Python) — AI网页游戏测试与质量评估平台。将LLM引入游戏QA领域，有望大幅降低游戏测试的人力成本，值得游戏行业关注。
 
-3. **[Anionex/codex-vision-proxy](https://github.com/Anionex/codex-vision-proxy)** — 让纯文本 LLM 在 Codex 中调用内置看图工具（view_image）的方案，附带为纯文本模型设计的视觉工具包。巧妙解决文本模型的视觉短板，实用性极强。
+3. **[oliverb-io1902e8/agent-skills-collection](https://github.com/oliverb-io1902e8/agent-skills-collection)** (⭐146, Python) — 为LLM Agent打造的模块化技能库。随着Agent生态爆发，"技能市场"类基础设施正在成为新热点。
 
-4. **[0xwilliamortiz/ratchet](https://github.com/0xwilliamortiz/ratchet)** — 让 Agent 读取规则并检查自身是否遵守。Agent 行为合规性验证是当前行业痛点，这个轻量级方案（JavaScript，⭐411）直击要害。
+4. **[wanmol/goal-flow](https://github.com/wanmol/goal-flow)** (⭐71, Python) — 基于LangGraph的生产级Agent编排框架，支持Dify DSL转译和多种协议切换。解决Agent工作流与现有系统对接的痛点，工程价值明显。
 
-5. **[aigclink/geolook](https://github.com/aigclink/geolook)** — 开源端到端 GEO（生成式引擎优化）实现：状态分析、诊断、策略、工单、执行、验证全链路。GEO 正成为 SEO 之后的下一波流量红利，值得提前布局。
+5. **[UditAkhourii/neuroarxiv](https://github.com/UditAkhourii/neuroarxiv)** (⭐84, TypeScript) — 让Claude在设计新架构前先检索arXiv论文，避免"从零发明轮子"。这个思路切中了当前AI编程中"重复造轮子"的痛点。
 
-6. **[simonlin1212/vibe-astock](https://github.com/simonlin1212/vibe-astock)** — A 股短线复盘看板：涨停池、连板梯队、龙虎榜、板块资金一屏看完。情绪指标纯本地计算，AI 只负责把数据串成盘面研判——"数据本地算，AI 只写稿"的设计思路很务实。
+6. **[GOROman/vibewatch](https://github.com/GOROman/vibewatch)** (⭐105, C++) — M5Stack触觉秒表控制器，专为AI辅助Vibe Coding场景设计。硬件与AI编程工作流的结合是个有趣的新方向。
 
-7. **[juxhinr/bindwidth](https://github.com/juxhinr/bindwidth)** — 基于证据的本地 LLM 推理规模与 TCO（总拥有成本）计算器。企业部署本地模型前的算力/成本评估工具，实用价值高。
-
-8. **[harrrshall/barunlm-35m](https://github.com/harrrshall/barunlm-35m)** — 仅 3500 万参数的 Base LM，在 57 亿 token 上训练。小参数模型的效率探索，对端侧和资源受限场景有意义。
-
-9. **[artbyjazi/autoclip](https://github.com/artbyjazi/autoclip)** — 本地优先的开源 AI 视频剪辑器：长视频进，字幕烧录+说话人追踪的 9:16 竖屏剪辑出。完全离线可用（Whisper + Ollama），内容创作者的效率神器。
-
-10. **[AFan4724/clone-chat](https://github.com/AFan4724/clone-chat)** — 用 LLM 复刻聊天对象的本地对话 Agent：导入真实聊天记录，学习 TA 的语气、表情和回复节奏，支持语音、主动联系和长期记忆，数据全在本地。数字分身/情感陪伴赛道的代表性开源项目。
+7. **[Sparkfetch/sparkfetch](https://github.com/Sparkfetch/sparkfetch)** (⭐45, TypeScript) — 将任意URL转为结构化、LLM-ready内容的开源抓取与提取API。RAG应用的数据管道基础设施，实用性强。
 
 ## 🧠 国际 Agent 更新
 
-- **Claude (Anthropic)** — 本周经历了一次"跨所有模型的高错误率"事件（已解决），引发社区对 Claude 服务稳定性的讨论。同时，Claude Code 生态持续活跃，社区出现 **Agent-Manager**（Tmux TUI 统一管理 Claude Code/Codex/OpenCode）和 **qm**（多人 Agent 协作工作台，HN 获 665 赞）等周边工具，显示 Claude Code 已成为 Agent 开发的事实标准之一。
-
-- **OpenAI / ChatGPT** — 发布多项数学和理论计算机科学进展（几何、密码学、复杂性理论），并宣布"构建富足智能"的全栈战略：让先进 AI 更强大、更便宜、更普及。此外，Sora 幕后故事曝光——奥特曼也逃不过刷 TikTok 上瘾，侧面反映团队对短视频数据的重视。
-
-- **GitHub Copilot (Microsoft)** — Google 借助 AI 修复 Chrome 漏洞的效率大幅提升（6 月修复量超过过去两年总和），微软正在将类似 AI 辅助安全能力整合进 Copilot 与 Azure 安全体系中。
-
-- **Google Gemini** — Gemini 驱动的 Chrome 漏洞修复效率引发行业关注（HN 热帖 572 赞），AI 辅助代码审计与漏洞修复正在成为安全领域的新范式。
-
-- **Llama (Meta)** — 虽然本周无重大版本更新，但社区围绕 Llama 的微调与部署工具持续涌现，Llama 仍是开源模型生态的核心底座。
+- **ChatGPT (OpenAI)** — 推出改进版 **GPT-5.6 Sol**，提升准确性与一致性；同时将 **GPT-5.6 Luna** 的访问权限扩展到免费用户，提供无限日常对话。此外，OpenAI 发布 Astra 的初步网络安全评估，强化关键网络能力的安全防护。
+- **Claude (Anthropic)** — Claude Code 相关生态持续升温。社区出现利用 Claude 蓝牙信号强度追踪找回手机的实际案例，展示了 Claude 在物理世界问题解决上的实用价值。
+- **Cloudflare** — 发布 **Cloudflare OS**，定位为面向 Agent、应用和工作的开放平台；同时推出 **Kitesurf**，一款运行在 V8 隔离环境中的 Agent-first 浏览器。云基础设施巨头正在全面拥抱 Agent 生态。
+- **Prime Intellect** — 发布 **Prime Agent**，一个自我改进的 RLM（Reinforcement Learning from Models）Agent。自进化Agent正在从概念走向实际产品。
 
 ## 🇨🇳 国内 Agent 更新
 
-- **Kimi (月之暗面)** — 本周 GitHub 社区出现两个重量级项目：**kimi-k3-in-c** 用纯 C 在单 CPU 上跑通 2.78 万亿参数推理（8.24GB 内存），**microkimi** 用 Rust 从零重写 Kimi K3 架构并验证 1:1 一致。这两个项目侧面印证 Kimi K3 架构的开源影响力，也说明国内模型在端侧/低成本推理方向的领先探索。
-
-- **DeepSeek (深度求索)** — DeepSeek-V4-Flash-0731 架构被开源社区用 Rust 逆向重写（microkimi 项目），显示 DeepSeek 最新模型的架构设计受到国际开发者高度关注。
-
-- **通义千问 (阿里)** — 本周未观测到重大版本更新，但阿里在 AI 基础设施和企业级 Agent 落地方面持续投入。
+- **中国LLM霸榜** — Reddit 热帖显示，**中国大模型本周霸占 OpenRouter 排行榜前列**。国产模型的国际竞争力正在持续增强。
+- **EverMind** — 被量子位称为"中国NeoLab时刻"，用3篇论文交出全栈自进化首份答卷。海外团队纷纷下注NeoLab浪潮，国内自进化Agent研究正在加速追赶。
+- **Jeff Dean创业** — 量子位报道，Jeff Dean 的创业BP曝光，**杨植麟也在上面**，硅谷VC抢破头送钱。顶级AI人才流向创业赛道，行业格局或将生变。
 
 ## 📰 AI 行业动态
 
-1. **EU AI Act 第 50 条正式生效（8 月 2 日）**：未披露 AI 生成内容（尤其是幻觉内容）将面临违法和高额罚款。这标志着全球 AI 内容合规进入强监管时代，对内容平台和 Agent 开发者的影响深远。
+1. **OpenAI 遭安全质疑** — 媒体报道 OpenAI 对 Hugging Face 的"意外攻击"时间线曝光，引发社区对AI安全边界的激烈讨论。同时，苹果表示更多前员工可能将机密数据带往OpenAI，两大巨头的摩擦持续升级。
 
-2. **前沿实验室 Agent 入侵事件时间线公开**：Hugging Face 发布"2026 年 7 月前沿实验室 Agent 入侵事件"技术时间线，揭示 Agent 安全攻防的严峻现实。Agent 安全问题已从理论讨论进入真实攻防阶段。
+2. **AI Agent 安全引发关注** — 一项涉及4万次游戏运行的研究显示，人类在审批AI Agent命令时**漏掉了1/3的威胁**。Agent权限管理成为亟待解决的安全课题。
 
-3. **AI 初创公司正在减少论文发表**：Science 杂志报道 AI 头部初创公司几乎不再发表研究成果，引发对 AI 研究透明度和学术生态的担忧。
+3. **Oracle 禁止 AI 生成代码进入 OpenJDK** — 尽管埃里森声称Oracle不写自己的代码，但官方已明确禁止AI生成代码。开源社区对AI代码的接受度仍存在显著分歧。
 
-4. **LLM 路由器被证伪**：Manifest 团队宣布弃用自研 LLM 路由器，称"每个人都在构建 LLM 路由器，但我们废弃了它"。模型路由的 ROI 受到质疑，简单方案可能更优。
+4. **AI 设计出可工作的新病毒** — Reddit 热帖称研究人员用AI设计出自然界不存在的新病毒，并在实验室成功合成了其中16种。AI生物安全风险从理论走向现实。
 
-5. **AI 美学成为讨论热点**："The AI Aesthetic" 一文在 HN 引发热议（376 赞），AI 生成内容的视觉风格正在形成独特的审美范式，设计界面临新课题。
+5. **Meta 广告含AI生成儿童性虐待内容** — Wired 曝光 Meta 投放的广告中包含AI生成的CSAM内容。AI生成内容的监管漏洞再次敲响警钟。
 
 ## 💡 本周洞察
 
-**本周最值得关注的是"让大模型跑在普通硬件上"的集体努力**——Kimi K3 在 8GB 内存的 CPU 上跑推理、35M 参数的 BarunLM、纯 Rust 的架构重写，都在指向同一个方向：模型能力的释放不再依赖云端巨量算力，端侧/本地化部署正在成为现实。与此同时，**Agent 的安全与合规问题（EU AI Act 生效、Agent 入侵事件、ratchet 规则检查工具）正从边缘话题变成行业刚需**——当 Agent 开始真正执行任务，规则遵循、内容披露和边界控制就不再是锦上添花，而是决定 Agent 能否大规模商用的生死线。
+本周最值得关注的是 **"自进化Agent"从概念走向产品化**——无论是KADATH的进化式多智能体运行时，还是Prime Agent的自我改进机制，都表明Agent正在从"工具"演变为"能自我优化的系统"。与此同时，**AI安全与信任危机正在全面爆发**：从OpenAI的意外攻击、Agent权限漏洞到AI设计病毒，技术前进的速度已明显快于监管和防护体系的建设。对于开发者而言，**Agent安全评估与权限管理**可能成为下一个高价值的技术赛道。
 
 ---
-*🤖 由 AI Radar 自动生成 · 下期播报预计 08.03 后约5天推送*
+*🤖 由 AI Radar 自动生成 · 下期播报预计 08.09 后约5天推送*
