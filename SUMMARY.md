@@ -1,55 +1,52 @@
-# 🤖 AI 热点 5 日播报（08.15 - 08.20）
+# 🤖 AI 热点 5 日播报（08.20 - 08.25）
 
 ## 🔥 GitHub 热门 AI 项目
 
-1. **[bawadou/ai-data-extractor](https://github.com/bawadou/ai-data-extractor)** ⭐377 · Python
-   免费开源的 AI 编程助手对话历史提取器，支持 Claude Code、Cursor、Windsurf、Aider 等主流工具。对于想要分析、迁移或备份自己 AI 编程数据的开发者来说非常实用。
+1. **[rome-os/rome](https://github.com/rome-os/rome)** (⭐293): 定位为 "agentic OS"，试图将 AI Agent 从单一工具提升为操作系统级基础设施，代表了 AI 原生交互界面的新探索方向。
 
-2. **[amitshekhariitbhu/llm-inference-engineering](https://github.com/amitshekhariitbhu/llm-inference-engineering)** ⭐179 · Markdown
-   一份系统性的 LLM 推理工程学习路线图，从 KV cache、PagedAttention、continuous batching 一路讲到 vLLM、SGLang 和 GPU 优化。是当前稀缺的高质量推理工程入门教程。
+2. **[itshen/source-reading-methodology](https://github.com/itshen/source-reading-methodology)** (⭐111): 一套带 AI 精读大型开源仓库的完整方法论，含四阶段流程和 28 条踩坑清单，强调每个技术论断可回溯到源码具体行，对开发者提升 AI 辅助代码理解能力极具参考价值。
 
-3. **[Vistyy/nopus](https://github.com/Vistyy/nopus)** ⭐117 · TypeScript
-   为 AI 编程助手输出提供"确定性散文检查"的工具，旨在让 Agent 的回复更清晰、更可预测。直击当前 AI 编程中"输出不稳定"的痛点。
+3. **[Jordanwei1/jiaojie-skill](https://github.com/Jordanwei1/jiaojie-skill)** (⭐104): 跨窗口、跨模型、跨设备的 AI 上下文交接工具，解决用户切换模型/窗口时上下文丢失的痛点，是 Agent 工作流中实用性很强的补缺组件。
 
-4. **[squall01337/mixamo-llm-mocap](https://github.com/squall01337/mixamo-llm-mocap)** ⭐91 · Python
-   将任意视频转换为 Mixamo 骨骼动画，由 AI Agent 全流程端到端操作——从 GVHMR 姿态估计到 Blender FK 应用。展示了 LLM 驱动创意工具链的潜力。
+4. **[abligail/narralume](https://github.com/abligail/narralume)** (⭐91): 开源 AI 辅助长篇小说写作工作台，覆盖设定、正文、审稿全流程。AI 在创意写作领域的垂直落地值得关注。
 
-5. **[Greninja9257/LabLLM](https://github.com/Greninja9257/LabLLM)** ⭐55 · Swift
-   专为 Apple Silicon 打造的 macOS 原生教学实验室，让你从零构建、训练并观察一个小型 LLM 的诞生。对想理解 Transformer 底层原理的学习者极具价值。
+5. **[unclecode/modelprint](https://github.com/unclecode/modelprint)** (⭐85): 在浏览器中识别任意 OpenAI 兼容 API 端点背后真实模型的指纹工具，通过 9 种基础设施探针进行对比验证，对 API 透明性和安全审计有独特价值。
 
-6. **[zorost/AI-Engineering-Lab](https://github.com/zorost/AI-Engineering-Lab)** ⭐45 · Jupyter Notebook
-   免费、自定进度的 24 周 AI 工程课程，涵盖 Python、ML、LLM、RAG、微调、Agent 与 MCP、云平台等，含 43 个可运行 notebook，MIT 许可无需注册。
+6. **[Akimiya-z/codex-guard](https://github.com/Akimiya-z/codex-guard)** (⭐53): 针对 AI/Codex 生成 PR 的质量闸门，在合并前拦截 TODO 残留、密钥泄露和 CI 失败等问题，是 AI 辅助开发流程中必要的工程化保障。
 
-7. **[zimodzh/dsh-plugin-dev-skills](https://github.com/zimodzh/dsh-plugin-dev-skills)** ⭐35
-   为 DeepSeek Harness（DSH）插件开发设计的 Agent Skill，定义了插件/服务/事件/工具/LLM 适配器/打包安装的标准，兼容 Claude Code、Codex 等主流 Agent。
+7. **[dshplugin/dsh-plugin-hub](https://github.com/dshplugin/dsh-plugin-hub)** (⭐39): DeepSeek Harness 的社区插件市场，提供 4000+ 人工精选插件，每日免费更新，正在构建围绕 DeepSeek 的插件生态。
 
-8. **[chilly23/RP2040-and-ESP32-AI](https://github.com/chilly23/RP2040-and-ESP32-AI)** ⭐11 · Python
-   在 ESP32-S3 上运行 28.9M 参数的 TinyLM，配合 RP2040 OLED 显示节点，实现完全本地的嵌入式 AI 推理。边缘 AI 的极简实践。
+8. **[alexcloudstar/mybutler](https://github.com/alexcloudstar/mybutler)** (⭐21): 本地优先的私人 AI 助手，强调数据私密性和自加权本地记忆机制，符合当前对 AI 隐私保护的关注趋势。
+
+9. **[radames/relight-three-js-transformers-js](https://github.com/radames/relight-three-js-transformers-js)** (⭐11): 结合 Three.js 与 Transformers.js 的 3D 重光照工具，展示 AI 能力在浏览器端 3D 渲染场景的融合应用。
+
+10. **[stems-arraign-48/neurocursor-ai](https://github.com/stems-arraign-48/neurocursor-ai)** (⭐42): 基于摄像头的 AI 手势鼠标控制（C++ 实现），主打游戏和无障碍场景，体现 AI 在交互方式革新的潜力。
 
 ## 🧠 国际 Agent 更新
 
-- **Claude (Anthropic)**：Anthropic 发布系统提示词（System Prompts）文档，首次公开 Claude 的系统提示词细节，引发社区广泛讨论（HN 热帖 👍757）。同时，Daring Fireball 发表批评文章，质疑 Claude 的"水印"文本篡改是对写作的亵渎，争议持续升温。
-- **Claude Code (Anthropic)**：推出 2026 年 5 月至 8 月每周限额推广活动，同时社区出现 Claude Code 为 macOS 编写 HP 打印机驱动的真实案例（HN 👍310），展示了 Agent 自主解决硬件兼容问题的能力。
-- **ChatGPT (OpenAI)**：OpenAI 宣布为符合条件的 API 客户提供 Zero Data Retention（零数据保留），并预览 Private Safety Processing 技术，在不牺牲隐私的前提下实现高级 AI 安全。此外，Replit 与 OpenAI 合作推出由 GPT-5.6 Luna 驱动的 Free Mode，让用户无需担心 token 成本即可将创意转化为可用软件。
-- **GPT-5.6 (OpenAI)**：Roboflow 评测称 GPT-5.6 Sol 是 OpenAI 迄今发布的最强"视觉"模型（HN 👍363），在视觉理解任务上取得显著突破。
-- **GitHub Copilot (Microsoft)**：曝出安全事件——AI 生成的 Copilot "Autofix" 功能被利用，导致 Snowflake 的 Jira 系统被入侵（Wiz 披露）。这一事件为 AI 辅助编程的安全性敲响警钟。
-- **Gemini (Google)**：Google 更新搜索学习工具，新增 Notebook 整合与"Ask Google"功能；同时 Gemini 与 Pixel 深度集成足球俱乐部合作，强化体育场景的 AI 体验。
-- **Multi-Agent 研究 (Anthropic)**：Anthropic 发布《Patterns and problems in emerging multi-agent systems》研究报告（HN 👍197），系统梳理了多智能体系统的常见模式与潜在问题，是该领域的重要参考。
+- **OpenAI / GPT-5.6**: 正式在 Kiro 开发环境中推出 GPT-5.6，重点优化开发者场景的性价比，帮助规划、构建、审查和测试软件。同时官方宣布下调 GPT-5.6 的 Sol 价格（至少持续至 11 月 21 日），明显意在应对开源模型的价格竞争。
+- **Anthropic / Claude**: 被曝正在 A/B 测试降低 Claude Code 的 effort level，引发社区讨论。同时有报道指出 Anthropic 最强模型在用户吸引力上不及更便宜的竞品，高端定位策略面临市场压力。
+- **Claude Code 生态**: 社区出现多个针对 Claude Code 的优化工具，如 [nobuzz](https://github.com/adnanakil/nobuzz)（让 Claude 停止用 BuzzFeed 式口吻说话）、[vomit](https://github.com/zachahn/vomit)（用独立 LLM 清理 Claude 5 的 token 输出），侧面反映用户对 Claude 输出质量和风格控制的强烈需求。
+- **GLM-5.3（开源模型）**: 多家评测和用户实测显示，GLM-5.3（开放权重）在多项任务上以 1/5 的成本超越 Anthropic/OpenAI 的闭源模型，成为本周最受关注的开源模型黑马。
+- **GitHub Copilot**: 社区出现 "A week of using Codex more than Claude" 等对比文章，开发者正在不同 AI 编程工具间进行深度体验对比，Codex 在特定工作流中的表现开始获得认可。
 
 ## 🇨🇳 国内 Agent 更新
 
-- **DeepSeek (深度求索)**：社区出现 DeepSeek Harness（DSH）插件开发技能（dsh-plugin-dev-skills），为 DSH 生态定义了插件/服务/事件/工具/LLM 适配器的标准规范，标志着 DeepSeek 在 Agent 生态建设上迈出重要一步。
-- **360 智能体**：入选 IDC 发布的 2026 中国 AI50 强，凭借"智能体+安全"双轮驱动战略，在企业级智能体与 AI 安全领域实现全栈布局。
-- **具身智能（国内）**：2026 世界机器人大会（WRC）上，章鱼动力发布"脑-手-数据"技术体系；超维动力 KAI 完成全球首个人形机器人自主乒乓球完整对局。国内具身智能赛道持续升温。
+- **DeepSeek**: DeepSeek Harness 社区推出官方插件市场（dsh-plugin-hub），提供 4000+ 精选插件，正在快速构建生态壁垒，提升开发者粘性。
+- **阿里达摩院**: 联合中国医科大学附属盛京医院推出肝癌诊断 AI 模型 DAMO LiON，可精准识别 1 厘米微小肿瘤，是 AI 在医疗垂直领域的重要落地成果。
+- **智谱AI / GLM**: GLM-5.3 在本周国际社区引发热议，以开放权重和极高性价比（1/5 成本）在多项评测中超越 Anthropic/OpenAI 闭源模型，代表国产开源模型在国际竞争力上的重要突破。
 
 ## 📰 AI 行业动态
 
-1. **AI 数据安全引发关注**：Google 在破产拍卖中收购已倒闭美国航空公司 Spirit 的数据（HN 👍603），引发关于 AI 数据来源合法性与隐私边界的广泛讨论。
-2. **Nvidia 缩减对 OpenAI 的基建融资承诺**：据路透社报道，Nvidia 大幅减少可能为 OpenAI 数据中心提供的 2500 亿美元融资担保，市场对 AI 基础设施投资过热的担忧加剧。
-3. **AI 影响年轻人就业信心**：美国调查显示，55% 的 30 岁以下成年人现在对 AI 感到担忧多于兴奋（2021 年仅为 31%），73% 认为 AI 将在未来 20 年减少美国就业岗位。
-4. **AI 效率实证**：一项大型职场实验表明，一名员工配合 AI 即可达到两人团队的工作产出。同时，Reddit 热帖吐槽当前 AI 工具"只能在客户挂断电话后告诉你哪里出了问题"，暴露出实时 AI 辅助的短板。
-5. **AI 地缘政治博弈**：有文章提出"挪威应该收购 OpenAI"（HN 👍254），同时以色列被曝创建虚假智库试图影响 AI 聊天机器人（HN 👍1043），AI 与地缘政治的交叉日益复杂。
+1. **"Don't paste the AI"** 成为本周 HN 最高热帖（👍1050），反映开发者社区对盲目复制粘贴 AI 生成代码的反思与抵制情绪正在升温。
+2. **AI 公司销毁实体书籍**引发争议（👍642, 💬910）：Anna's Archive 发文揭露 AI 公司为训练模型大量销毁稀有实体书，呼吁在不可逆转的损失前紧急扫描保存，引发关于 AI 训练数据伦理的激烈辩论。
+3. **"AI 失明"现象**引发共鸣（👍504）：开发者自述因长期与 AI 协作而逐渐丧失对 AI 生成内容的敏感度，难以辨别 AI 与人类产出，引发对 AI 依赖度的集体反思。
+4. **AI 完全自主无人机首次实战击杀**：Reddit 热帖披露一架完全由 AI 引导的无人机击杀三名乌克兰士兵，AI 在军事领域的自主决策能力引发严重伦理担忧。
+5. **"AI 盲"与"编码专业能力崩溃"** 成为社区热议话题：Reddit 上有开发者提出"编码专业能力将因 AI 依赖而崩溃"的观点，与 HN 上"AI 失明"的讨论形成呼应，反映行业对 AI 依赖副作用的高度关注。
 
 ## 💡 本周洞察
 
-本周热点呈现出"AI 安全与信任"与"AI 自主能力"两条主线并行：一方面，数据隐私（OpenAI 零保留）、AI 安全漏洞（Copilot Autofix 事件）、以及 Anthropic 水印争议，都在提醒行业"AI 可信度"仍是待解的核心命题；另一方面，AI Agent 的能力正从文本生成向实物操作（视频转动画、写驱动程序、人形机器人乒乓球）快速延伸，Agent 的"动手能力"正在成为新的竞争焦点。值得关注的是，年轻人对 AI 的担忧情绪显著上升，这或许预示着 AI 产品设计需要从"能力展示"转向"信任构建"。
+本周最值得关注的是**"AI 依赖的副作用"成为社区核心焦虑**——从 "Don't paste the AI" 到 "AI 失明" 再到 "编码专业能力崩溃"，开发者群体正在经历从兴奋到反思的集体心理转变。与此同时，**GLM-5.3 以 1/5 成本比肩甚至超越闭源旗舰模型**，标志着开源模型在性价比维度上的竞争已进入新阶段，闭源厂商的定价策略将面临更大压力。建议从业者关注 AI 工具的"质量闸门"和上下文管理类基础设施的兴起——它们正在成为 AI 工作流中不可或缺的工程化组件。
+
+---
+*🤖 由 AI Radar 自动生成 · 下期播报预计 08.25 后约5天推送*
