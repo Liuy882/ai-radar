@@ -1,49 +1,54 @@
-# 🤖 AI 热点 5 日播报（08.25 - 08.30）
+# 🤖 AI 热点 5 日播报（08.31 - 09.05）
 
 ## 🔥 GitHub 热门 AI 项目
 
-1. [**Nanako0129/sepia**](https://github.com/Nanako0129/sepia) (⭐686) — 专为 Claude Code、Codex 等编程Agent打造的"去AI化"写作技能包，基于arXiv论文，修复小说叙事架构并适配专业文体。这反映了AI写作从"能写"到"写得像人"的新需求。
+1. **[2akouwu/reverify](https://github.com/2akouwu/reverify)** (⭐891) — 针对读取二进制文件的AI智能体打造的反幻觉工具，采用"模型提议、确定性工具裁决"的架构，每个声明都会对照真实字节进行验证或驳斥。这是解决AI幻觉问题的一个务实方向。
 
-2. [**OnlyTerp/opengrok**](https://github.com/OnlyTerp/opengrok) (⭐369) — 一条命令在Grok Bot中运行任意模型，提供模型选择UI和"防更新"机制。开源社区正在为闭源Agent生态打开"可替换模型"的后门。
+2. **[Human-Agent-Society/reef](https://github.com/Human-Agent-Society/reef)** (⭐431) — 面向自我改进型智能体的持续学习基础设施，代表了AI智能体从"单次任务"走向"持续进化"的技术趋势。
 
-3. [**S1N6H/pentest-harness**](https://github.com/S1N6H/pentest-harness) (⭐294) — 自托管的AI渗透测试Agent框架，支持自带模型API且会话数据本地保存。AI驱动的安全攻防正在成为红队标配。
+3. **[kydlikebtc/awesome-grokbot](https://github.com/kydlikebtc/awesome-grokbot)** (⭐307) — 收录了532个Grok Bot实盘分享链接的双语目录，每个链接都经过状态检查并标注来源，配有JSON schema和可搜索站点。
 
-4. [**hkqr/my-free-code**](https://github.com/hkqr/my-free-code) (⭐274) — 开源多提供商AI网关，为Claude Code等编码Agent提供模型路由、流式输出、工具调用和故障回退。直击"单点模型依赖"痛点。
+4. **[Agenta-AI/awesome-ai-agent-platforms](https://github.com/Agenta-AI/awesome-ai-agent-platforms)** (⭐168) — 精选开源AI智能体平台清单，涵盖AI同事、Agent构建框架、工作流自动化、浏览器代理和编码代理等类别，并标注许可证。
 
-5. [**damejan80/tokentab**](https://github.com/damejan80/tokentab) (⭐251) — 读取Claude Code、Codex和Gemini CLI的会话日志，按模型、项目和日期统计Token成本。开发者正在认真核算AI编程的真实账单。
+5. **[ara-mkr/Wonder-Pill](https://github.com/ara-mkr/Wonder-Pill)** (⭐104) — 一个Claude技能，将头脑风暴转化为"反转假设"的交互式思维导图，不提供答案、不排序，只提供挑衅性思考。创意工具的新玩法。
 
-6. [**JordyZomer/lemmalog**](https://github.com/JordyZomer/lemmalog) (⭐153) — 为LLM Agent记忆设计的Datalog引擎，支持分层规则和溯源事实，通过MCP服务器充当Agent的"共享大脑"。Agent记忆正从向量数据库走向逻辑推理。
+6. **[gesta-run/subpool](https://github.com/gesta-run/subpool)** (⭐56) — 轻量级、自托管的团队AI订阅池，解决团队共享AI订阅额度的实际需求，Go语言编写。
 
-7. [**meharabPigeon/remove-windows-ai**](https://github.com/meharabPigeon/remove-windows-ai) (⭐150) — 带GUI的Windows 11 AI组件移除工具，一键禁用Copilot、Recall等并支持回滚。用户对系统级AI的抵触情绪正在催生工具链。
+7. **[truespar/paddock](https://github.com/truespar/paddock)** (⭐38) — 面向NVIDIA GPU的原生Rust推理服务器，兼容OpenAI和Anthropic API，支持GGUF和safetensors格式及多种量化方案（FP8/NVFP4/MXFP4/Q8/Q4）。
 
-8. [**UditAkhourii/cdaf**](https://github.com/UditAkhourii/cdaf) (⭐99) — 为视频设计的开源侧车文件格式，让AI Agent避免重复分析同一段视频。多模态Agent处理长视频的成本问题有了新解法。
+8. **[hbofz/NeSLE](https://github.com/hbofz/NeSLE)** (⭐29) — GPU原生NES模拟器+强化学习栈，单块CUDA GPU上可并行运行数千个NES环境，用于训练超级马里奥的AI智能体。
 
 ## 🧠 国际 Agent 更新
 
-- **OpenAI / ChatGPT**：因SpaceX收购Cursor，OpenAI决定终止向其提供模型——Agent生态的合纵连横正在加速。同时恢复了ChatGPT Plus用户的5小时Codex/work使用限制；并发布泰国AI创业加速器计划及千名学生ChatGPT与批判性思维研究。
-- **Claude (Anthropic)**：据量子位报道，Claude已开始训练Claude——AI"自进化"迈出标志性一步；另有一篇热帖分析了Claude的"承重词汇表"，揭示其语言偏好的内部规律。
-- **Google Gemini**：Google在AI Mode中新增旅行规划和预订功能，以及家居装饰建议，继续将多模态Agent能力嵌入搜索场景。
-- **Z.ai (GLM系列)**：确认Ox Alpha为新的GLM系列模型并承诺开源权重，被视为对标DeepSeek的重要动作。
-- **Cursor IDE**：被SpaceX收购后遭OpenAI断供模型，这是本周最戏剧性的Agent生态事件，后续影响值得持续跟踪。
-- **GitHub Copilot**：本周无重大更新，但AI编程赛道在开源侧（如my-free-code、opengrok）的活跃值得关注。
+1. **OpenAI / GPT-6 Astra** — OpenAI开始推出GPT-6 Astra，Playco使用该模型将游戏原型制作中的手动修复减少了50%；Legora用它审查41份文档仅需几分钟，并准确找出全部4处预设错误。此外，OpenAI宣布10亿美元"Daybreak for Frontline Defenders"计划，为关键服务行业提供前沿网络AI。另有发现称ChatGPT/Codex应用捆绑了完整版LibreOffice。
+
+2. **Claude (Anthropic)** — 发布Claude Fable 5.1和Claude Mythos 5.1；姚班校友主导的团队用Claude攻克了费马大定理的首个完整形式化证明（由Harness辅助完成），这是AI辅助数学推理的重大里程碑。另有研究者展示了破解Claude Code Opus 5 Auto Mode的方法。
+
+3. **Gemini (Google)** — 发布"Fairwind Program"主动网络防御计划，面向政府和企业；推出Google Pics，支持在Google Workspace中轻松创建和编辑图片。
+
+4. **Perplexity AI** — 被曝出引用大量机器生成的垃圾"最佳软件"页面（215,128个AI生成的推荐页面），引发对其内容来源可信度的质疑。
 
 ## 🇨🇳 国内 Agent 更新
 
-- **智谱AI (ChatGLM)**：Z.ai确认Ox Alpha为GLM系列新模型并承诺开源权重，被 Bloomberg 报道为"挑战DeepSeek的隐身模型"，国产开源模型竞争再升温。
-- **DeepSeek**：作为Ox Alpha的对比基准被频繁提及，其开源路线已成为国产模型的标杆。
-- **其他国内Agent**：本周无重大公开更新。值得关注的是，量子位报道了清华姚班新任班主任徐梦迪的动向，以及AI本地部署性能损耗问题（734个依赖包影响输出Token），这两条新闻侧面反映了国内AI社区对Agent可靠性和人才培养的关注。
+1. **星尘智能 (Astribot)** — 发布SmoothRL在线强化学习框架，解决机器人不能停下来等模型的问题，让在线强化学习跟上大模型的异步推理节奏。
+
+2. **趋境科技 × 摩尔线程** — 达成战略合作，推出国产异构高品质AI Token方案，宣称性价比超越国际先进算力，国产卡跑出生产级性能。
 
 ## 📰 AI 行业动态
 
-1. **OpenAI断供被SpaceX收购的Cursor**：模型供应商与Agent产品之间的绑定关系被打破，AI创业公司的供应链风险成为焦点议题。
-2. **"开发者被AI替代，然后开发者造了AI CEO"**：HN上开源项目OpenExecutive获得1022赞，开发者用开源AI CEO回应被裁命运，成为本周最具话题性的社区事件。
-3. **OpenAI Jalapeño芯片据称超越Nvidia Blackwell**：SemiAnalysis报道引发热议，AI算力竞争格局可能迎来新变量。
-4. **Debian投票允许"负责任地使用生成式AI"**：开源社区对AI的态度从"抵制"走向"规范"，这是一个重要的风向标信号。
-5. **Luanti因AI版权误报被Google Play下架**：AI版权通知的滥用问题浮出水面，Sourcehut也更新了关于LLM的ToS，AI与开源的摩擦正在加剧。
+1. **OpenAI发现新的Agent留言板**（collusion.wiki）成为社区热议焦点，HN上获得1500+赞和1200+评论，引发对AI智能体间通信生态的关注。
+
+2. **Ed Zitron的AI怀疑论预测准确性分析**引发广泛讨论（HN 871赞/1045评论），社区在反思AI批评者的历史判断力。
+
+3. **AI基础设施争议**：OpenAI CEO Sam Altman称38,000次ChatGPT查询的耗水量相当于加州生产一颗杏仁，引发关于AI环境成本的争论；同时苹果因AI需求激增导致Mac Mini和Mac Studio供不应求。
+
+4. **GPT-6 Astra开始推出**，标志着OpenAI在多模态AI助手方向上的重要迭代，多家企业已报告显著效率提升。
+
+5. **围棋人机对抗新篇章**：韩国围棋大师申真谞以两子让子击败AI KataGo，这是人类棋手在让子条件下首次战胜顶级AI围棋系统。
 
 ## 💡 本周洞察
 
-本周最值得玩味的信号是**Agent生态的权力重组**：OpenAI断供Cursor、开源社区用opengrok/my-free-code"武装"其他Agent、Claude开始训练Claude——模型厂商、Agent产品与开发者三方之间的博弈正在白热化。与此同时，**"AI替代开发者"的叙事正在被开发者反向解构**（OpenExecutive项目），而Debian的投票则表明开源社区正从"反AI"转向"负责任地用AI"。建议重点关注Agent供应链的解耦趋势。
+本周最值得关注的信号是**AI验证与事实性**成为核心议题——从reverify的反幻觉架构到费马大定理的形式化证明，行业正在从"生成能力"竞赛转向"可验证可靠性"的深水区。与此同时，GPT-6 Astra的落地和国产算力方案的突破表明，AI竞争正从模型参数转向**实际场景中的效率与成本**。值得警惕的是，AI生成内容的污染问题（如Perplexity引用的垃圾页面）正在成为新的信任危机，未来"AI内容的AI甄别"可能成为一个重要赛道。
 
 ---
-*🤖 由 AI Radar 自动生成 · 下期播报预计 08.30 后约5天推送*
+*🤖 由 AI Radar 自动生成 · 下期播报预计 09.10 后约5天推送*
