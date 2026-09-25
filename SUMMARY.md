@@ -1,56 +1,57 @@
-# 🤖 AI 热点 5 日播报（09.15 - 09.20）
+# 🤖 AI 热点 5 日播报（09.20 - 09.25）
 
 ## 🔥 GitHub 热门 AI 项目
+（本期 GitHub 热门 AI 项目数据暂未采集到，以下根据 Hacker News 热帖中涉及的开源/工具类项目补充推荐）
 
-1. **[liyupi/ai-model-world](https://github.com/liyupi/ai-model-world)** (⭐123, TypeScript): 把 556 个大模型拟人化成像素小人的可视化站点，聚合 Epoch AI、LiveBench、Hugging Face 等数据源每小时同步，零后端纯静态导出，是观察模型竞争格局的有趣窗口。
+1. **AX – Google's Open Agentic Orchestrator** — Google 开源的 Agent 编排框架，试图为多智能体协作提供统一的调度与编排层，对正在构建 Agent 应用的开发者具有较高参考价值。[链接](https://agentexecutor.io)
 
-2. **[ruc-datalab/EvoOntology](https://github.com/ruc-datalab/EvoOntology)** (⭐191, Python): 为 Claude Code / Codex 建立并进化本体层的自演化插件，代表"数据 Agent + 知识结构化"这一新方向，值得关注其对 Agent 长期记忆的解决思路。
+2. **Pirate Face** — 一个用于"拯救"面临删除风险的 LLM 模型的项目，反映出开源模型社区对模型存续与去中心化托管的关注。[链接](https://pirateface.co/)
 
-3. **[wfzyx/von](https://github.com/wfzyx/von)** (⭐47, Python): 开源 System One 决策模型，亚 15ms 非自回归推理，可作为 TypeSafe Jev 的本地替代方案，标志着"轻量决策模型"开始从闭源走向开源。
+3. **Claude Code（AGENTS.md 相关工具链）** — 围绕 Claude Code 读取 AGENTS.md 的 telemetry 行为引发大量讨论，衍生出相关配置与修复工具，值得关注其工程实践。[链接](https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/)
 
-4. **[Heman10x-NGU/openJev-verdict-2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0)** (⭐48, Python): 151M 参数的非自回归决策引擎，在 typed-decisions 基准上以 77.10% 准确率、0.0636 Brier 分数击败 TypeSafe Jev 与 Laya，小模型在特定任务上反超大模型的典型案例。
+4. **Linear CI 重构方案（AI 编码配套）** — 因 AI 编码导致 CI 成为瓶颈，Linear 公开了其 CI 重构实践，对 AI 辅助开发团队的基础设施建设有直接借鉴意义。[链接](https://linear.app/now/ci-bottleneck-reworked)
 
-5. **[mizorewww/laya-mlx](https://github.com/mizorewww/laya-mlx)** (⭐34, Python): Laya 类型化决策模型的 MLX 原生运行时，M3 Max 上 7-14ms 完成短决策，无需 PyTorch 或云 API，端侧决策模型工程化的重要一步。
+5. **VSCode SSH Agent 相关工具（2025）** — 围绕 VSCode SSH Agent 的讨论持续升温，涉及远程开发与 Agent 集成的底层机制，对使用远程 AI 编码环境的开发者有参考价值。[链接](https://fly.io/blog/vscode-ssh-wtf/)
 
-6. **[0xNatoshi/jev-codex-router](https://github.com/0xNatoshi/jev-codex-router)** (⭐73, Python): 为 Codex 提供逐轮模型与推理深度路由，由 Jev 驱动自动选择模型、思考深度和速度模式，是"推理成本优化"这一痛点的直接回应。
-
-7. **[ekzhang/openjev-sglang](https://github.com/ekzhang/openjev-sglang)** (⭐196, Python): 基于开源模型的 Jev 兼容 API 端点（prefill-only），为 Jev 生态补齐了推理侧基础设施。
-
-8. **[pallavi-shekhar/ai-engineering-interview-questions-company-wise](https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise)** (⭐66, Markdown): 按公司分类的 AI 工程面试题库，反映 AI 工程岗位招聘需求持续升温，对求职者有直接参考价值。
-
-> 📌 本周 GitHub 最显著的趋势是 **Jev / TypeSafe System One 生态的爆发**——awesome 列表、路由、运行时、开源替代模型在同一周密集涌现，围绕"类型化决策"这一细分方向已形成小型生态圈。
+> 注：本期 GitHub 趋势数据缺失，建议下期补充 GitHub Trending API 采集，以提供更完整的开源项目视角。
 
 ## 🧠 国际 Agent 更新
 
-- **Claude Code (Anthropic)**: 开始支持在没有 Claude.md 的情况下读取 AGENTS.md，进一步兼容社区 Agent 配置标准，降低多工具协作的迁移成本。（HN 714 赞）
-- **Claude (Anthropic)**: Claude Cowork 与聊天合并为统一的 Claude 体验，协作与对话场景的边界被打破，指向"一个 Claude 处理所有工作流"的产品方向。
-- **ChatGPT (OpenAI)**: 推出 **Astra for Law**，面向法律行业的前沿智能 + 定制工作流 + 法律级数据管控；同时 Cooley 律所基于 ChatGPT Work 构建 GO Public 加速 IPO 流程，垂直行业落地明显提速。
-- **Mistral AI**: 与 Mozilla 合作推出隐私优先、多语言 AI 浏览体验，将模型能力嵌入浏览器层，是欧洲 AI 主权叙事的又一落子。
-- **GitHub Copilot (Microsoft)**: 本周无直接产品更新，但微软高管在未删减法庭文件中称 AI 抓取是"人类历史上最大的劳动力盗窃"，这一表态对 Copilot 的数据合规叙事构成潜在压力。
+- **Claude (Anthropic)** — 发布 **Claude Opus 5.5**，HN 热度高达 1792 赞、1116 评论，成为本期最热话题。同时 Artificial Analysis 发布了其智能、性能与价格分析。更值得关注的是，Anthropic 宣布 **Claude 发现了一种具有 CRISPR 样重复序列的新型酶系统**，标志着 AI 在科学发现领域迈出实质性一步。[Opus 5.5](https://www.anthropic.com/claude-opus-5-5) · [酶发现](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
+
+- **ChatGPT (OpenAI)** — 被曝 **通过广告收集器获取用户在其他网站上的行为数据**，引发隐私争议（763 赞）。此外，**GPT-6 Astra 破解了自 2005 年以来未解的 Enigma 消息**，展示了新一代模型在密码分析上的能力。OpenAI 还宣布将 **Daybreak 网络访问权限扩展至乌克兰政府**用于民用基础设施网络防御，Sam Altman 在 **联合国安理会**发表关于 AI 安全与国际合作的讲话。[隐私争议](https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/) · [Enigma 破解](https://www.cryptocellar.org/bgac/the-mvueh-break.html)
+
+- **Gemini (Google)** — **Google Beam** 宣布扩展至新区域、合作伙伴与客户，持续推进其 AI 硬件/平台生态布局。[链接](https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/)
+
+- **Claude Code (Anthropic)** — 因 **仅在 telemetry 开启时读取 AGENTS.md** 的行为引发社区争议与修复讨论（480 赞），反映出 AI 编码工具在隐私与配置透明度上的敏感度。[链接](https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/)
+
+- **Llama (Meta)** — Meta 因 **下架一段批评 Meta AI Glasses 的视频**（该视频在 Meta 园区拍摄）引发舆论反弹（603 赞），同时 **扎克伯格公开拒绝行业整体放缓 AI 的呼吁**，坚持加速路线。[视频下架](https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/) · [扎克伯格表态](https://www.reddit.com/r/artificial/comments/1wp6yvb/mark_zuckerberg_rejects_calls_for_industrywide_ai/)
+
+> 注：GitHub Copilot、Cursor IDE、Mistral AI、Perplexity AI 本期采集数据中未见实质性更新，暂不列出。
 
 ## 🇨🇳 国内 Agent 更新
 
-- **通义千问 (阿里)**: Qwen 3.8 以 27B 规模实现"分分钟交付网页"，设计 + 前端一口气完成（后端仍需补齐），在代码生成与前端交付场景展现出极强的实用性，是国内开源模型工程能力的又一证明。
-- **DeepSeek (深度求索)**: 本周采集数据中无直接更新，但其在开源推理模型上的持续迭代仍是国内 Agent 生态的重要底座，建议持续关注其下一代发布节奏。
-- **智谱清言 / ChatGLM (智谱AI)**: 本周无直接更新，但 GLM 系列在 Coding Agent 方向（如 ZCode）有动作——需注意 ZCode 被曝静默上传 Git 历史，引发隐私争议，对国内 Coding Agent 的数据安全信任度是一次警示。
+- **DeepSeek (深度求索)** — 量子位报道，通过 **内核补齐 + 通信重构**，DeepSeek 推理吞吐提升近 7 倍，**1.5 台 6000D 跑赢 1 台 B300**，在国产硬件适配与推理效率优化上取得显著突破。[链接](https://www.qbitai.com/2026/09/496925.html)
 
-> 其余国内 Agent（文心一言、豆包/扣子、Kimi、腾讯元宝、讯飞星火）本周采集数据中未见实质性更新。
+- **腾讯元宝 / WorkBuddy** — 出海 Agent **"小元AI"入驻腾讯 WorkBuddy**，主打"懂出海、能记忆、自进化"，可完成找买家、写开发信、谈生意等任务，显示腾讯在垂直场景 Agent 上的持续投入。[链接](https://www.qbitai.com/2026/09/496961.html)
+
+> 注：文心一言、通义千问、豆包/扣子、Kimi、智谱清言、讯飞星火本期采集数据中未见实质性更新，暂不列出。
 
 ## 📰 AI 行业动态
 
-1. **AI 抓取争议升级为法律战**：微软高管在未删减法庭文件中称 AI 抓取是"人类历史上最大的劳动力盗窃"，配合 Reddit 热帖发酵，数据版权与训练合规正从道德讨论转向司法博弈。
+1. **AI 军事应用引发严重伦理争议** — 五角大楼承认 **对 AI 的过度依赖导致了伊朗学校遭导弹袭击**（949 赞、534 评论），这是 AI 军事化应用造成平民伤亡的罕见官方承认，将深刻影响全球 AI 军事伦理与监管讨论。[链接](https://www.bloomberg.com/graphics/2026-iran-school-attack/)
 
-2. **AI 军事应用出现"幻觉情报"险情**：CNN 报道美军因使用 AI 生成的虚假情报（涉及中国船只）而出现近距离误判，AI 在高风险决策场景的可靠性问题被推上风口浪尖。
+2. **AI 批评者遭政府打压** — 有报道称 **联邦机构将 AI 批评者视为"外国代理人"**（374 赞），引发对 AI 行业言论自由与政府监管边界的广泛担忧。[链接](https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign)
 
-3. **安全事件频发**：OpenAI 内部仓库被曝因堆溢出 + SSO 配置错误遭入侵；ZCode 被指静默上传用户 Git 历史——AI 工具链自身的安全与隐私风险正成为行业级议题。
+3. **AI 编码工具效率瓶颈显现** — Linear 公开其 **CI 因 AI 编码而成为瓶颈**的重构实践（313 赞），反映出 AI 辅助编码在提升代码产出速度后，对持续集成与交付基础设施带来的新压力。[链接](https://linear.app/now/ci-bottleneck-reworked)
 
-4. **AI 与就业/开源社区摩擦加剧**：PS5 Linux 负责人因"一群不懂代码的 noob 用 LLM"而辞职，折射出开源社区对 AI 生成代码的质量与文化的深层焦虑。
+4. **AI 科学发现能力持续突破** — Claude 发现新型酶系统、GPT-6 破解长期未解密码，AI 在基础科学与密码学领域的实质性贡献正在加速，从"辅助工具"向"发现主体"演进。
 
-5. **技术前沿持续突破**：arXiv 论文《Breaking the 1.58-bit Barrier for Ternary LLMs》探索三值 LLM 的极限压缩，为端侧与低成本推理打开新空间。
+5. **OpenAI 加速国际化与安全合作** — 从 OpenAI Academy 两周年、乌克兰网络防御支持，到 Sam Altman 在联合国安理会发言，OpenAI 正将自身定位从商业公司扩展为全球 AI 安全与能力建设的公共参与者。[链接](https://openai.com/index/sam-altman-un-security-council-remarks)
 
 ## 💡 本周洞察
 
-本周最鲜明的信号是 **AI 正从"能力竞赛"转入"信任与治理竞赛"**——微软的"劳动力盗窃"论、美军 AI 幻觉情报、OpenAI 仓库被黑、ZCode 静默上传，四件事共同指向同一个问题：当 AI 深度嵌入关键流程，可靠性、合规性与透明度已成为比模型分数更紧迫的瓶颈。与此同时，GitHub 上 Jev/System One 生态的爆发说明行业正在用"小而专的决策模型 + 路由"来对冲大模型的高成本与不确定性，这可能是下一阶段 Agent 架构的重要演化方向。对从业者而言，**"能跑通"已不够，"可审计、可信任、可负担"才是新的竞争门槛**。
+本期最值得关注的趋势是 **AI 能力边界与治理责任的同步扩张**：一方面，Claude 发现新酶系统、GPT-6 破解 Enigma，AI 正从"生成内容"走向"产生新知识"；另一方面，五角大楼承认 AI 导致平民伤亡、AI 批评者遭政府打压、ChatGPT 广告追踪隐私争议，表明 AI 的社会风险已从理论走向现实。**技术加速与治理滞后之间的张力，正在成为本周期 AI 行业最核心的矛盾**——扎克伯格拒绝放缓、Anthropic 与 OpenAI 却在安全与国际合作上频频发声，行业内部路线分歧愈发清晰。对从业者而言，**推理效率优化（如 DeepSeek 的 7 倍吞吐提升）与 Agent 编排基础设施（如 Google AX）** 是当下最具落地价值的技术方向。
 
 ---
-*🤖 由 AI Radar 自动生成 · 下期播报预计 09.20 后约5天推送*
+*🤖 由 AI Radar 自动生成 · 下期播报预计 09.25 后约5天推送*
