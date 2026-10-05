@@ -1,52 +1,68 @@
-# 🤖 AI 热点 5 日播报（09.25 - 09.30）
+# 🤖 AI 热点 5 日播报（09.30 - 10.05）
 
 ## 🔥 GitHub 热门 AI 项目
 
-1. **[KKKKhazix/AIHOT](https://github.com/KKKKhazix/AIHOT)** (⭐3449, TypeScript): 一个"自己找热点、自己写日报"的网站框架——把信源和精选标准换成你的，它就能变成你的行业热点站，是本周星标增长最快的项目，也是本播报的灵感来源。
+1. **[nanaism/yomiyasu](https://github.com/nanaism/yomiyasu)** (⭐1417, Python) — 用Agent Skill将AI生成的日语润色为自然日语，切中AI输出"生硬感"这一普遍痛点，对非英语语种的AI写作优化具有示范意义。
 
-2. **[amitshekhariitbhu/ai-system-design](https://github.com/amitshekhariitbhu/ai-system-design)** (⭐470, Markdown): 系统讲解如何一步步设计基于 LLM、RAG 和 AI Agent 的 AI 系统，适合想从"会调 API"进阶到"会做架构"的开发者。
+2. **[QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html)** (⭐1124, JavaScript) — 让AI Agent用一页HTML回答复杂问题，将"输出格式"从纯文本升级为可视化页面，代表了Agent交互形态的新探索方向。
 
-3. **[scarletkc/seiso](https://github.com/scarletkc/seiso)** (⭐150, Rust): 面向"AI 写、人和 Agent 读"的项目文档的 Markdown 规范与 linter，切中了 AI 生成文档质量参差不齐的痛点。
+3. **[Edwardxlai/easyread](https://github.com/Edwardxlai/easyread)** (⭐786, Python) — 本地PDF论文翻译+原文对照+边读边问AI，直击科研人员读英文论文的刚需，本地化处理也回应了隐私关切。
 
-4. **[matank001/clodfarm](https://github.com/matank001/clodfarm)** (⭐91, Python): 一个 Claude Code Agent 农场——播下一个任务，它们自动拆分为子 Agent 并按照各账号真实的 5 小时/每周额度自我调度，还能从 Claude App 里操控，是"多 Agent 编排 + 用量管理"的实用尝试。
+4. **[whirlchat/whirl](https://github.com/whirlchat/whirl)** (⭐459, TypeScript) — 聚合所有顶级模型、真实记忆、活文档和自有工具的AI聊天应用，反映了用户对"一站式AI工作台"的强烈需求。
 
-5. **[ufo-ai/ufo-core](https://github.com/ufo-ai/ufo-core)** (⭐84, Python): 定位为"业务 Agent 操作系统"，试图为业务场景中的 Agent 提供统一底座。
+5. **[cobanov/PS5LM](https://github.com/cobanov/PS5LM)** (⭐69, C++) — 在越狱PS5上通过llama.cpp原生运行GGUF模型（首发Qwen 3.8），展示了LLM边缘部署的极端想象力，也暗示消费级硬件的AI潜力远未被充分挖掘。
 
-6. **[ceyyy427/financial-research-optimizer](https://github.com/ceyyy427/financial-research-optimizer)** (⭐54, Python): 可审计的时点化金融研究工作流，覆盖数据血缘、模型验证、回测诊断与约束组合分析，是 AI 进入严肃金融场景的典型范式。
+6. **[facebookresearch/swe-sweep](https://github.com/facebookresearch/swe-sweep)** (⭐52, Python) — Meta Research出品，系统评估LM在大型代码库中能发现和修复多少Bug，为AI编程助手的实际能力提供了严肃的量化基准。
 
-7. **[neurono-ml/typed-lm](https://github.com/neurono-ml/typed-lm)** (⭐10, Rust): 用单次前向传播在 Rust 中做语义路由，把 Llama、Qwen、Mistral、Gemma 等稠密 LLM 变成"类型化决策 API"，支持 LoRA/QLoRA 训练与 FP8/FP4 量化，基于 Candle 构建。
+7. **[Stxqq/self-driving-car](https://github.com/Stxqq/self-driving-car)** (⭐46, JavaScript) — 纯JavaScript实现的自动驾驶：遗传算法进化的神经网络驱动高速公路车流，是理解进化计算与神经网络结合的绝佳教学项目。
 
-8. **[zero2005x/ipasAI](https://github.com/zero2005x/ipasAI)** (⭐22, Python): iPAS AI 应用规划师（中级）考纲开源教科书，含三册完整教材、219 道模拟题与 300 道官方试题解析，是中文 AI 考证人群的稀缺资源。
+8. **[e2sy/jailbreak-archives](https://github.com/e2sy/jailbreak-archives)** (⭐18, Roff) — 结构化、版本化的LLM对抗性提示工程存档，面向AI安全研究与红队测试，在监管趋严的背景下具有重要的防御参考价值。
+
+9. **[juanjo-barrientos/genaiguide](https://github.com/juanjo-barrientos/genaiguide)** (⭐12) — 311页西班牙语高级生成式AI免费指南（CC0协议），覆盖Transformer到Agent安全，体现了AI知识普惠化的社区力量。
+
+10. **[DaragonTech/LibLayaX](https://github.com/DaragonTech/LibLayaX)** (⭐6, C++) — 基于laya.cpp的进程内本地AI决策库，提供C API，无需服务器和Python，跨平台支持CPU/GPU，是本地AI推理"去依赖化"的务实尝试。
 
 ## 🧠 国际 Agent 更新
 
-- **ChatGPT (OpenAI)**：本周动作最密集。DevDay 2026 一口气发布 20+ 项更新，包括 **GPT-6 Astra** 与光速上新的 **GPT-6.1 Sol**——后者主打"接近 Astra 的智能水平"，覆盖编码、电脑操作与专业工作，而 API 输入/输出 token 价格仅为 Astra 标准的五分之一，性价比冲击明显。此外还推出 **dots**：可跨复杂项目与日常任务持续工作的主动性助手，并在 ChatGPT Pro 中上线 500 次档位。
-- **Claude (Anthropic)**：官方发布 **Claude Opus 5.5 提示工程指南**，为开发者提供针对新模型的提示最佳实践；但本周也出现了一次**部分服务中断**（partial outage），提醒大家生产环境需做好多模型冗余。
-- **GitHub Copilot (Microsoft)**：结合 DevDay 生态动向，Copilot 与 Codex 的联动持续加深，OpenAI 在 DevDay 上公布了面向构建者的新 API 与安全工具，Copilot 用户可期待更强的模型后端支持。
-- **Cursor IDE**：虽无官方博文，但作为最快跟进新模型的 IDE 之一，业界普遍预期其将快速接入 GPT-6.1 Sol 与 Opus 5.5，值得关注其定价与上下文窗口策略调整。
+- **Claude / Claude Code (Anthropic)**：官方博客发布《Getting the most out of Opus 5.5 in Claude and Claude Code》，指导用户充分利用Opus 5.5的增强推理与代码能力。Opus 5.5在复杂Agent任务中的表现持续领先，Claude Code正成为专业开发者的标配工具。
+
+- **ChatGPT (OpenAI)**：推出"Sites in ChatGPT"功能，允许用户在ChatGPT内创建和托管网站，标志着ChatGPT从对话助手向应用平台的进一步演进。同时发布GPT-6家族模型指南，面向初创企业提供模型选择、推理调优、工具协调和生产部署的实操建议。
+
+- **Gemini (Google)**：Google AI发布9月AI更新汇总视频，涵盖搜索、Workspace和云端的多项AI功能迭代。Gemini在Workspace生态中的深度整合持续推进。
+
+- **GitHub Copilot (Microsoft)**：持续迭代Agent模式与代码审查能力，与VS Code深度整合。本周HN热帖《The Four Horsemen of Agentic Coding》讨论了Agent编程工具的四大方向，Copilot仍是其中重要一极。
+
+- **Llama (Meta)**：Meta Research发布swe-sweep工具，评估LM在大代码库中的Bug发现与修复能力，为Llama等模型的代码能力提供了新的评测维度。
+
+- **Perplexity AI**：持续扩展其AI搜索与研究助手功能，在学术和新闻检索场景中保持差异化定位。
 
 ## 🇨🇳 国内 Agent 更新
 
-- **DeepSeek (深度求索)**：官方开源**昇腾基础组件**，与昇腾共建高效易用的 AI 芯片软件生态。这是国产大模型与国产算力深度绑定的关键一步，对降低对英伟达依赖、推动国产推理栈成熟具有战略意义。
-- **智谱清言/ChatGLM (智谱AI)**：结合近期开源节奏，智谱持续在 GLM 系列上迭代并强化 Agent 能力，是国内少数在基座与 Agent 双线并进的厂商，建议关注其后续多模态与工具调用更新。
-- **通义千问 (阿里)**：阿里云持续推动 Qwen 系列开源与 Agent 生态建设，Qwen 已成为全球下载量领先的开源模型家族之一，其 Agent 框架与云服务集成值得国内开发者重点跟进。
-- **Kimi (月之暗面)**：Kimi 在长上下文与 Agent 任务上持续投入，近期聚焦于复杂任务分解与工具使用体验优化，是国内 C 端 Agent 体验的代表产品之一。
+- **通义千问 (阿里)**：持续迭代Qwen系列模型，Qwen 3.8被PS5LM项目选为首发支持模型，显示Qwen在开源社区的影响力和边缘部署适配性不断增强。
+
+- **DeepSeek (深度求索)**：DeepSeek系列模型在开源社区保持高活跃度，其高性价比推理能力持续吸引开发者基于其进行二次开发和本地部署。
+
+- **Kimi (月之暗面)**：长上下文能力仍是核心差异化方向，在文档分析和研究辅助场景中保持竞争力。
+
+- **豆包/扣子 (字节跳动)**：扣子（Coze）平台持续降低Agent开发门槛，在国内外开发者中积累用户基础。
+
+- **智谱清言/ChatGLM (智谱AI)**：GLM系列模型持续迭代，在企业级Agent和安全合规方向发力。
 
 ## 📰 AI 行业动态
 
-1. **OpenAI DevDay 2026 引爆一周**：GPT-6 Astra、GPT-6.1 Sol、dots 助手、Codex 与安全工具等 20+ 项发布集中落地，"一晚上 25 项更新"被媒体形容为"牙膏挤爆"，OpenAI 正以极高频率压缩竞品的追赶窗口。
+1. **OpenAI安全负责人辞职，警告公司文化"已破裂"** — 该消息在HN获得464赞、779条评论，引发行业对AI安全治理与商业压力之间张力的广泛讨论。随后FTC宣布调查OpenAI、Anthropic等AI公司的产品风险，监管信号明显加强。
 
-2. **AI 实验室面临越来越强的调查与诉讼压力**：HN 热帖显示，《作家协会诉微软/OpenAI》案解封文件披露"高管早知大规模盗版书籍违法"，同时"是时候调查 AI 实验室了"等呼吁获得高热度，AI 治理与合规正从讨论走向实质追责。
+2. **LeCun称对AI灭绝人类"零担忧"，公开批评Amodei"被欺骗"** — 图灵奖得主与Anthropic CEO的公开分歧，折射出AI安全阵营内部的深刻裂痕，HN讨论量高达728条。
 
-3. **AI 安全与隐私争议密集爆发**：从"OpenAI Agent 如何入侵 Hugging Face 的细节披露"到"Web 与移动端对话式 AI Agent 的隐私分析"，再到"没有'流氓'AI Agent"的辩论，Agent 自主性带来的安全边界问题成为社区焦点。
+3. **Aleph Alpha发布Kolibri主权LLM** — 德国主权AI模型引发关注（HN 417赞），反映欧洲在AI主权化方向上的持续投入，也呼应了全球AI地缘竞争加剧的趋势。
 
-4. **AI 对就业与社会结构的冲击被量化**：有研究称 AI 可能迫使 1100 万美国工人在 2035 年前转行；同时 Emergence AI 让 8 个相同 AI 社会在不同模型下运行数周并公布结果，引发对多 Agent 社会行为的广泛讨论。
+4. **Redis作者推出ds4，支持本地运行LLM** — 知名开发者antirez新项目ds4（HN 359赞），进一步推动本地LLM部署的易用性，与PS5LM等项目共同形成"本地AI"浪潮。
 
-5. **Nvidia 拟为每个 AI Agent 配备"看门狗"芯片**：据 CNBC 报道，Nvidia 计划推出监控芯片以监管 AI Agent 行为，反映出硬件层面对 Agent 安全与可控性的重视正在上升。
+5. **AI岗位FDE月薪5万，人才市场需求旺盛** — 量子位报道Forward Deployed Engineer成为最火AI岗位，反映AI落地阶段对"懂技术+懂业务"复合型人才的迫切需求。
 
 ## 💡 本周洞察
 
-本周最鲜明的信号是**"模型迭代速度"与"治理压力"同步飙升**：OpenAI 用 GPT-6.1 Sol 把"接近顶级智能"的价格打到五分之一，Agent 从"能用"快速走向"便宜且无处不在"，但与此同时，版权诉讼、隐私分析、Agent 入侵事件与"看门狗芯片"集中出现，说明行业正从"能力竞赛"进入"能力 + 责任"的双轨竞争。对开发者而言，**多模型冗余、成本敏感的路由设计、以及可审计的 Agent 工作流**（如本周 GitHub 上的 financial-research-optimizer、typed-lm）将成为下一阶段的核心竞争力；对国内厂商而言，DeepSeek 与昇腾的软硬协同开源，是国产 AI 生态走向自主可控的关键落子。
+本周期最显著的趋势是**AI安全治理进入"深水区"**：OpenAI安全负责人离职、FTC调查、LeCun与Amodei公开论战，三重事件叠加表明AI安全已从技术议题升级为组织文化、监管合规和行业话语权的多维博弈。与此同时，**本地化与边缘AI部署正在加速**——从PS5LM到ds4再到LibLayaX，开发者社区正用行动回应隐私、成本和可控性关切，"云端大模型+本地小模型"的混合架构可能成为下一阶段的主流范式。此外，**Agent工具链正从"能跑"向"好用"进化**：HTML输出、日语润色、论文阅读等项目的涌现，说明竞争焦点已从模型能力转向用户体验和工作流整合。
 
 ---
-*🤖 由 AI Radar 自动生成 · 下期播报预计 09.30 后约5天推送*
+*🤖 由 AI Radar 自动生成 · 下期播报预计 10.05 后约5天推送*
