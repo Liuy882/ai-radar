@@ -1,66 +1,56 @@
-# 🤖 AI 热点 5 日播报（10.22 - 10.27）
+# 🤖 AI 热点 5 日播报（10.27 - 11.01）
 
 ## 🔥 GitHub 热门 AI 项目
 
-1. **[hevnsnt/CVEngine](https://github.com/hevnsnt/CVEngine)** (⭐387) — 首个"AI-first"外部攻击面评估工具，把漏洞验证做成证据链而非猜测，并原生集成 MCP，让安全 Agent 能直接调用。安全 Agent 化是今年最被低估的落地场景之一。
+1. **[wangzan101/Mika](https://github.com/wangzan101/Mika)** (⭐2917, Kotlin)：安卓端本地 AI Agent，能直接操作 App 与网页完成任务，代表"端侧 Agent"从概念走向可用产品，且完全脱离云端。
 
-2. **[huaxialucaicaizi/ai-startup-skills](https://github.com/huaxialucaicaizi/ai-startup-skills)** (⭐344) — 把创业公司做 AI 产品的 7 步（验证→BP→政策→路演→获客→定价→注册）封装成 Agent Skill 合集。这类"方法论即 Skill"的项目正在成为 Agent 生态的新内容形态。
+2. **[jackwener/DSH-Android](https://github.com/jackwener/DSH-Android)** (⭐637, Kotlin)：免 ROOT、免 Termux，单个 APK 即可在安卓手机跑 DeepSeek Harness，引擎内嵌 App 进程并支持读屏操作与定时自动化，把大模型 Agent 的门槛压到"装个 App"。
 
-3. **[Cattmonkey/ChaosIntelligence](https://github.com/Cattmonkey/ChaosIntelligence)** (⭐200) — 提出"把智能体当函数、把想法写成程序"的 Agent-native 函数式语言，带 CLI、Web IDE 和目标驱动 bot。值得关注的是它对 Agent 编程范式的重新思考，而非又一个框架。
+3. **[N1nEmAn/sapper-v2](https://github.com/N1nEmAn/sapper-v2)** (⭐369, Python)：自主渗透测试"军团"——AI 指挥官 + 工人集群 + 分层事实-意图图，以 1B token 击败 4.5B 拿下腾讯智能攻防赛冠军，是 Agent 集群协作在安全领域的硬核验证。
 
-4. **[liyupi/dafeiyu-cleaner](https://github.com/liyupi/dafeiyu-cleaner)** (⭐108) — 识别并清理 B 站评论区 AI 机器人账号的浏览器插件，离线规则 + DeepSeek API 精判。这是"AI 内容污染"问题第一次以开源工具形式被正面回应，颇具象征意义。
+4. **[jmanico/grim-prompter](https://github.com/jmanico/grim-prompter)** (⭐313)：面向 AI 编码 Agent 的威胁建模工具，指向仓库即可生成带证据溯源的威胁模型，覆盖 36 种架构、29 种方法，正好呼应本周"Agent 安全"的舆论焦点。
 
-5. **[lwh0630/TokenBar](https://github.com/lwh0630/TokenBar)** (⭐86) — 跨平台 AI 配额监控工具，覆盖 Codex、Claude、Cursor 等 47+ 服务，Flutter 全端。多模型并用时代，"配额可见性"正在变成刚需基础设施。
+5. **[wanghao-SunSky/cs329z-chinese](https://github.com/wanghao-SunSky/cs329z-chinese)** (⭐256, HTML)：斯坦福 CS329Z《Engineering AI Agents》中文教程，19 讲 + 4 项实践，覆盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全，是当前最系统的中文 Agent 学习材料。
 
-6. **[ccch1mneyyy/dsh-go](https://github.com/ccch1mneyyy/dsh-go)** (⭐76) — 把 DeepSeek Harness 装进手机，本机运行同时可遥控电脑。端侧 Agent 与"手机即控制台"的思路值得留意。
+6. **[shipwords-dev/shipwords](https://github.com/shipwords-dev/shipwords)** (⭐315, TypeScript)：Cloudflare 原生的"新词站群"框架，内置鉴权、额度、支付与 AI 生成，"一个新词一个站、一个下午上线"，是 AI 批量建站变现思路的工程化模板。
 
-7. **[JunWan666/astrbot-for-android](https://github.com/JunWan666/astrbot-for-android)** (⭐69) — 在 Android 上免 Root 本地部署 AstrBot + NapCat（内置 PRoot Ubuntu）。把自托管 Agent 门槛降到"装个 App"，对个人 Agent 普及有实际推动。
+7. **[boardshogunfluctuate/Capri-AI](https://github.com/boardshogunfluctuate/Capri-AI)** (⭐516)：赛博朋克风格的桌面 AI Agent，通过 Claude Code / Codex 操作本地文件、项目与代码，Windows 安装器免终端，体现"Agent 桌面化、产品化"趋势。
 
-8. **[FrontiersMindAI/decisionformer](https://github.com/FrontiersMindAI/decisionformer)** (⭐38) — 把 Transformer 用于决策模型：在任意 Hugging Face 模型上微调、加载、部署"校准过的决策模型"。与下方 groot 一起，指向"决策模型"这一细分赛道正在成形。
+8. **[EntranceStarfish/VoiceStudioV2](https://github.com/EntranceStarfish/VoiceStudioV2)** (⭐131)：100% 离线的本地语音工作室，实时变声、TTS、声音克隆与配音，并提供 OpenAI 兼容 API，无需云与密钥，本地语音栈持续成熟。
 
-9. **[leofmarciano/groot](https://github.com/leofmarciano/groot)** (⭐12) — 开源类型化决策模型 Groot 1，支持 64k token 状态下的校准选择/打分/是-否判断，零样本新闻分类与类型化决策均小幅领先 Jev。星数虽低，但"校准 + 类型化决策"的方向值得跟踪。
-
-10. **[NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell)** (⭐504，HN 热帖) — NVIDIA 开源的自主 Agent 安全私有运行时，面向"Agent 集群"而非单个 Agent。大厂开始为 Agent 提供基础设施层，信号明确。
+9. **[tavern-labs-ai/persona-ai-sdk](https://github.com/tavern-labs-ai/persona-ai-sdk)** (⭐192, TypeScript)：把默认人格、持久角色记忆与 Bedrock/OpenAI 适配器打包成一个 SDK，反映"角色记忆"正成为 Agent 基础设施的标准组件。
 
 ## 🧠 国际 Agent 更新
 
-- **OpenAI（ChatGPT / Codex）** — 本周信息量最大：官方连发三篇客户案例，Greptile 用 **GPT-6 Astra** 做工作流测试与漏洞检测、CodeRabbit 用 **GPT-6.1 Sol** 做复杂代码库安全审查，说明新模型正以"垂直安全/代码 Agent"为切入口落地。同时开源 **OpenAI CLI**（HN 244 赞），补齐命令行入口。更重磅的是官方研究博客称在 **Kakeya 猜想、指数时间假设（ETH）、量子色动力学**上给出模型结果并开放研究者验证——若 ETH 相关结论成立，将动摇大量复杂性理论下游结果，学界争议已在 Reddit 发酵，需谨慎看待。
+- **Claude Code (Anthropic)**：本周最大负面事件——官方 VS Code 扩展在 Cursor Marketplace 被植入后门，攻击者可向开发者机器投递远程访问木马（HN 近千赞、多条热帖交叉印证）。同时 Claude 被曝定期将每个后台 Agent 的完整 transcript 回传模型，以及新增"禁止游戏克隆与逆向工程"的宽泛限制，误伤正常开发与排障。安全与合规正成为 Agent 产品的主要风险面。
 
-- **Anthropic（Claude / Claude Code）** — 官方研究博文《LLMs are making formal software verification feasible at a much larger scale》登上 HN（462 赞），主张 LLM 让形式化验证从"论文级"走向"工程级"。这是 Claude 在"高可靠性代码"叙事上的关键落子，与 OpenAI 的代码安全案例形成正面竞争。
+- **Claude (Anthropic)**：宣布取消 5 小时使用限制，首批 200 美元 Ultra 用户已"解封"，对重度 Agent 用户是实质性利好，也意味着推理成本压力有所缓解。另因训练数据使用斯坦福教授盗版书籍被推上风口。
 
-- **Google（Gemini）** — 更新偏教育向：推出新一期 **AI Quests「Mapping the human brain」**，把 AI 学习做成互动式探索产品。消费级 AI 教育是 Google 相对低调但持续投入的方向。
+- **ChatGPT (OpenAI)**：推出共享 robots.txt 信号机制，让网站统一表达 AI 训练偏好，OpenAI 承诺遵守；同时发布社区安全报告并加强对青少年的保护；在版权侧持续以"合理使用惠及所有人"公开辩护。产品层面偏治理与合规，而非能力更新。
 
-- **Microsoft（GitHub Copilot）** — 采集数据中无实质更新，本周不建议过度解读。
-
-- **Cursor / Perplexity / Mistral / Meta（Llama）** — 采集数据中无本周实质性更新披露，暂不列入。
-
-- **价格战信号（跨厂商）** — HN 热帖《OpenAI 与 Anthropic 数月内将 LLM 价格下调最高 80%》引发 427 条讨论，虽非单一产品更新，但直接影响所有 Agent 产品的成本结构，值得所有开发者关注。
+- **Cursor IDE**：因 Marketplace 上的 Claude Code 扩展后门事件被卷入舆论中心，第三方插件市场的供应链审核问题成为 IDE 类产品的共性隐患。
 
 ## 🇨🇳 国内 Agent 更新
 
-- **科大讯飞（星火）** — 本周国内最实质的动作：10 月 22 日 1024 开发者节发布 **星辰 TaaS 平台**，主打"让 Token 真正成为千行百业的生产力"，即从卖模型转向卖 Token 级生产力服务。这是国内厂商对"模型商品化"趋势的正面回应。
+- **DeepSeek (深度求索)**：本周社区热度主要体现在生态侧——DSH-Android 让 DeepSeek Harness 以单 APK 形式跑在安卓手机上，支持读屏操作与自动化，说明其 Agent 框架正被开发者向端侧移植。
 
-- **DeepSeek** — 采集数据中无官方发布，但生态侧动作密集：dsh-go（手机端 Harness）、dafeiyu-cleaner（用 DeepSeek API 做评论精判）等第三方项目活跃，说明其 API 正被当作"廉价精判层"广泛嵌入工具链。
-
-- **阿里（通义千问）/ 字节（豆包·扣子）/ 月之暗面（Kimi）/ 智谱 / 百度（文心）/ 腾讯元宝** — 采集数据中本周无实质性更新披露，暂不列入；建议下期重点跟踪各家在 Agent 平台层的迭代节奏。
-
-- **行业侧观察** — 量子位报道《企业 AI 需要两个世界模型》提出特赞"让企业 Agent 真正懂业务"的思路，反映国内 ToB Agent 正从"接大模型"转向"建业务世界模型"的方法论讨论阶段。
+- **其余厂商**：本次采集数据中未见文心一言、通义千问、豆包/扣子、Kimi、智谱、腾讯元宝、讯飞星火的实质性更新信息，本期不做臆测性补充。
 
 ## 📰 AI 行业动态
 
-1. **"AI 回报"质疑升温** — Apollo 报告《No signs of AI payoff outside the tech sector》（HN 638 赞、668 条评论）指出科技业外几乎看不到 AI 生产力回报，与 678 赞的《如果模型这么强，OpenAI 为什么不直接开 100 家公司？》共同构成对"AI 价值兑现"的集体追问。
+1. **Agent 供应链安全集中爆发**：Claude Code 官方扩展在 Cursor Marketplace 被植入后门，叠加"后台 transcript 回传"曝光，开发者对 AI 编码工具的信任成本显著上升。
 
-2. **专用小模型反杀前沿 LLM** — 一个 10 年前的 CNN 在皮肤癌诊断上优于前沿大模型（HN 656 赞）。这是本周对"通用大模型万能论"最有力的一记反证，垂直领域的数据与任务匹配度仍胜过参数规模。
+2. **"AI 减负"叙事遭遇反噬**：HN 热帖《AI 承诺更少工作，我却从未如此忙碌》与《AI 不是替代 SRE，而是在让其去技能化》双双高赞，一线从业者对效率红利的质疑正在形成共识性讨论。
 
-3. **AI 对创意行业就业的冲击被量化** — Apricitas 分析称美国媒体、影视与艺术行业已流失 20 万个岗位（HN 541 赞）。AI 的就业影响正从预测走向统计，政策讨论窗口正在打开。
+3. **版权与训练数据争议持续升温**：Anthropic 被曝用盗版书籍训练 Claude，OpenAI 则一边推动 robots.txt 训练偏好信号、一边以合理使用公开辩护，行业正从"能不能用"转向"如何合规地用"。
 
-4. **政府级禁用与数据合规风险** — 瑞典政府办公室宣布禁用 ChatGPT 与 Claude；约翰霍普金斯因患者数据外泄通知 3000+ 人。合规与数据边界正成为 Agent 落地的前置约束，而非事后补丁。
+4. **Agent 从云端走向端侧与桌面**：安卓本地 Agent（Mika、DSH-Android）、桌面 Agent（Capri）、离线语音栈集中上榜，隐私与离线可用性成为新的产品卖点。
 
-5. **推理基础设施与开源治理双线推进** — Cerebras 实现万亿参数前沿模型部署；同时 r/opensource 出现"全面禁止个人项目与使用 LLM 的项目"的争议性规定（HN 90 赞）。算力侧在扩张，开源社区侧在收紧，两条线同时演化。
+5. **Agent 评测走向专业化**：Surge 用 50 个真实税务任务评测 AI Agent，Y Combinator 则在 Minecraft/Mindustry 中跑 Agent 集群，评测正从基准题转向高价值真实工作流。
 
 ## 💡 本周洞察
 
-本周最清晰的信号是 **AI 竞争从"模型能力"转向"可验证的价值"**：OpenAI 用安全代码审查案例和数学难题结果证明模型"能干什么"，Apollo 和 HN 社区则在追问"到底赚到了什么"，两边同时加压，中间地带（只讲跑分不讲场景）会越来越难生存。第二个趋势是 **Agent 的基础设施层正在被大厂接管**——NVIDIA 的 OpenShell、OpenAI 的 CLI、讯飞的 TaaS，都在把 Agent 从"应用功能"下沉为"运行时与计费单元"，独立开发者的机会将更多集中在垂直场景与 Skill/方法论层，而非底层框架。最后，**专用模型与合规约束**这两股"反向力量"值得持续跟踪：前者挑战通用大模型的叙事，后者决定 Agent 能走多远。
+本周的主线不是能力跃迁，而是**信任与治理的补课**：当 Agent 开始拥有读屏、改系统设置、操作文件和代码的权限，供应链后门、transcript 回传、训练数据来源这些"非模型"问题，反而成了决定产品能否被大规模采用的关键。与此同时，端侧与本地化 Agent 的集中涌现说明开发者在用"数据不出设备"来对冲信任赤字。对从业者而言，下一阶段的竞争力可能不在模型分数，而在**权限边界设计、可审计性与评测可信度**——谁能把 Agent 的"能做什么"和"被允许做什么"讲清楚，谁才能拿到企业级订单。
 
 ---
-*🤖 由 AI Radar 自动生成 · 下期播报预计 10.27 后约5天推送*
+*🤖 由 AI Radar 自动生成 · 下期播报预计 11.01 后约5天推送*
