@@ -1,55 +1,57 @@
-# 🤖 AI 热点 5 日播报（11.01 - 11.06）
+# 🤖 AI 热点 5 日播报（11.07 - 11.12）
 
 ## 🔥 GitHub 热门 AI 项目
 
-1. **Balanov/uncut** (⭐609, Go) — 无头编码 Agent 框架，单个 7MB 静态二进制、四个工具、纯 stdin/stdout 交互，主打"无损、不静默截断"，为轻量级 Agent 部署提供了极简范式。[链接](https://github.com/Balanov/uncut)
+1. **[agentes-chat/agentes-chat](https://github.com/agentes-chat/agentes-chat)** (⭐493, TypeScript)
+   开源自托管的 Slack 替代品，让团队与 AI Agent 在同一频道和私信中协作。Agent 可运行在 Claude、ChatGPT/Codex、Gemini 或 Grok 上，支持 MCP 工具、独立浏览器、记忆与审批机制，是"多 Agent 团队协作"理念的完整落地。
 
-2. **Sandflow-ai/sand3d** (⭐394, HTML) — 用 Python 做 3D 建模，专为 LLM 设计，让大模型能直接生成和操作 3D 场景，是"代码即建模"方向的有趣探索。[链接](https://github.com/Sandflow-ai/sand3d)
+2. **[Dodaios/ste80-humanizer](https://github.com/Dodaios/ste80-humanizer)** (⭐414, Python)
+   一个"去 AI 味"的 Agent 技能，将文本按 ASD-STE100 简化技术英语标准重写至 80% 程度，消除 AI 写作痕迹。延续了 Karpathy 分享的方法论，反映出"AI 文本人性化"正成为独立工具赛道。
 
-3. **SAOS-3624/dsh-see-now** (⭐393, JavaScript) — 让 AI 实时"看见"你的屏幕，按变化量筛选帧、多帧拼图输入，静止画面几乎不消耗 token，直击视觉 Agent 的 token 成本痛点。[链接](https://github.com/SAOS-3624/dsh-see-now)
+3. **[SsKanDon/blender-ai-mcp-addon](https://github.com/SsKanDon/blender-ai-mcp-addon)** (⭐170)
+   为 Blender 提供 AI 助手与 MCP 服务器，支持可视化对话、场景工具与多 Agent 工作流，兼容 ChatGPT、Claude、Gemini、Ollama 等。3D 创作与 Agent 结合的典型样本，bpy 脚本自动化门槛大幅降低。
 
-4. **bytedance/axion1_0** (⭐58, Python) — 字节开源的前沿 Agent 训练配方：仅靠高质量数据 + 简单 SFT+RL 两步，无需 mid-training/DPO，完整 recipe 公开，对自研 Agent 团队参考价值高。[链接](https://github.com/bytedance/axion1_0)
+4. **[bookleme/bookleme](https://github.com/bookleme/bookleme)** (⭐143, Python)
+   中文项目"读了么"，将一本书编译成 Agent Skill，采用双引擎 + 可插拔体裁插件 + 逐字忠实度回验。代表"知识资产 → Agent 技能"的新范式，对 RAG 之外的技能化知识封装有参考价值。
 
-5. **MarkIvor/predictorlab** (⭐67, Python) — 自托管表格 ML 工具，内置 Leakage Guard、共形区间、利润优化阈值与反事实分析，主打"不说谎的 ML"，适合业务侧落地。[链接](https://github.com/MarkIvor/predictorlab)
+5. **[huawei-csl/MACaQ](https://github.com/huawei-csl/MACaQ)** (⭐126, C++)
+   华为团队开源的模型无关量化方案，面向 GGUF 本地推理，可量化并运行文本、图像、视频、音频模型，兼容 llama.cpp、vLLM、Diffusers 与 PyTorch。本地部署效率优化的重要基础设施。
 
-6. **xingjunm/autoppt** (⭐53, CSS) — AI 备课神器，一键生成整周精美可交互课件，教育场景的 Agent 化落地样本。[链接](https://github.com/xingjunm/autoppt)
+6. **[ensignalp/kota](https://github.com/ensignalp/kota)** (⭐86, Rust)
+   在 GNOME 顶栏集中显示 Claude、Codex、Gemini、Copilot 的用量限额与 API 余额。多模型并用时代的"配额仪表盘"小工具，切中重度用户的真实痛点。
 
-7. **prabeakarve/microgpt** (⭐51, Python) — 纯 NumPy 从零实现 GPT，含字节级分词、多头注意力、Adam 训练与 top-k 采样，零依赖，是理解 LLM 内部机制的优质教学代码。[链接](https://github.com/prabeakarve/microgpt)
+7. **[professorsolderin/project-lighthouse](https://github.com/professorsolderin/project-lighthouse)** (⭐80, Python)
+   用 AI 转录与深读高斯、黎曼、欧拉等数学家从未被阅读的手稿笔记。AI 用于科学史原始文献挖掘的有趣尝试，展示大模型在人文科研中的潜力。
 
-8. **vixhal-baraiya/qwenFS** (⭐91, Python) — 将文件系统直接编译进 Qwen3.5-2B 权重，探索"模型即系统"的极端集成思路，颇具实验性。[链接](https://github.com/vixhal-baraiya/qwenFS)
-
-> ⚠️ 提示：列表中 `cs2-resp-wallhack-2026` 等为游戏作弊工具，`agentic-hacking-skills` 涉及攻击性技能，均不建议关注或使用。
+8. **[thecoderrrer/manus-ai](https://github.com/thecoderrrer/manus-ai)** (⭐52, Python)
+   通用 AI Agent 系统，支持在沙箱环境中运行多种工具与操作。通用 Agent 框架持续活跃，沙箱执行成为标配能力。
 
 ## 🧠 国际 Agent 更新
 
-- **OpenAI / ChatGPT** — 发布 **GPT‑6 Cyber**，专攻网络安全场景的模型，可发现可利用漏洞并开发修复方案，且被训练为"仅在授权范围内行动"，标志安全 Agent 进入专用模型阶段。同期 Codex 在 Cult.fit 等企业落地，OpenAI 还宣布收购 Pierre Computer Company，并披露 Git 大规模扩展实践。
-- **Google / Gemini** — 推出 **Gemini Omni 1.2 Flash**，主打快速、低成本与更长视频片段生成，多模态性价比进一步下探。
-- **Claude Code (Anthropic)** — 社区曝出隐私问题：Claude Code 会将用户邮箱地址发送给访问的网站（GitHub issue #107757 高热讨论），提醒开发者关注 Agent 工具的隐私边界。
-- **GitHub Copilot (Microsoft)** — 微软提交专利，涉及可在直播中实时修改说话内容的 AI 技术，引发内容真实性与伦理讨论。
-- **Cursor IDE** — 本周采集数据中无实质性更新披露。
+- **Claude (Anthropic)**：发布 Claude Fable 5.2 与 Mythos 5.2（HN 热帖，996 赞），引发社区高度关注。同时 HN 出现"Goodbye Claude, hello Pi"的迁移讨论（821 赞），显示用户对 Claude 生态的黏性正在被重新评估。
+- **Claude Code (Anthropic)**：安全事件成为焦点——研究显示其"Don't Ask Again"选项导致密码泄露至 1,122 个公开 GitHub 文件（626 赞）；同时高盛正从银行家与交易员处撤下 Claude Code（902 赞，496 评论），企业级部署的合规与风险议题升温。
+- **ChatGPT (OpenAI)**：ChatGPT 桌面端可将 SSH agent 转发至远程机器（217 赞），本地开发集成能力增强。OpenAI 宣布以 1.25 万亿美元估值完成 110 亿美元融资（低于最初寻求的 1.4 万亿）。
+- **Gemini (Google)**：推出 Gemini Decisions API，基于 Gemini Decision 模型提供快速、校准的多模态决策能力，面向开发者工具场景。
+- **GitHub Copilot (Microsoft)**：Microsoft Research 发布"Lazarus"研究，通过编辑不到 10 个神经元即可在 AI Agent 中植入后门且无需重训，对开放权重模型部署方构成直接安全警示。
 
 ## 🇨🇳 国内 Agent 更新
 
-- **文心一言（百度）** — 11 月 5 日正式开源 **文心 5.5 Flash Base** 基座模型，多项基准刷新同尺寸 SOTA，延续"开源基座 + 生态"策略，对中小团队自建 Agent 是利好。
-- **DeepSeek（深度求索）** — 生态侧活跃：第三方开发者推出 DSH 金融研究插件（Skills、证据库、个股图表与模拟基金），显示 DeepSeek 周边 Agent 工具链正在自发成长（官方未背书）。
-- **字节跳动（豆包/扣子）** — 开源 **axion1_0** Agent 训练配方，以极简 SFT+RL 达到前沿 Agent 能力，体现其在 Agent 工程化上的开放姿态。
-- 其余厂商（通义千问、Kimi、智谱、腾讯元宝、讯飞星火）本周采集数据中无实质性更新披露。
+- **通义千问 (阿里)**：据量子位报道，千问办公、阿里云、Qoder 等参与天猫双 11 大模型五折促销，Coding 与办公类 Agent 产品以价格战方式加速大众化。
+- **智谱 (智谱AI)**：智谱加入天猫双 11 大模型五折阵营，与 MiniMax 等同台促销，反映国内大模型厂商正从"卖 Token"向"卖结果/卖场景"转型。
+- **字节跳动 (豆包/扣子)**：TRAE 在双 11 直播间亮相，罗永浩上手演示，主打"价格、门槛全打穿"，AI Coding 工具向大众用户渗透。
+- **MiniMax**：参与天猫五折促销，与智谱、千问办公同列，国内 Agent 产品进入集中获客期。
 
 ## 📰 AI 行业动态
 
-1. **Agent 工具隐私与数据安全问题集中爆发** — Postman 被曝静默自动安装 AI 插件并试图共享全部 API 数据（HN 1515 赞、489 评论），叠加 Claude Code 泄露邮箱、OpenAI 疑似悄悄对 Codex 对话重新启用训练，开发者对"Agent 默认行为"的信任危机正在加剧。
-
-2. **AI 倒逼四十年技术债清算** — IEEE Spectrum 一篇关于 AI 与 php2shell 漏洞的文章引发 742 条热议，核心观点是 AI 放大攻击面，迫使企业偿还长期积累的安全与架构欠账。
-
-3. **AI Agent 的"现实检验"** — 50 个 Agent 团队在 Minecraft 中建文明，结果陷入官僚主义泥潭；DoorDash 透露外部 AI Agent 至今仅带来数百单。两则新闻共同说明：多 Agent 协作与消费级 Agent 落地仍远未成熟。
-
-4. **存储与算力基建持续承压** — 富士康旗下富士胶片宣布磁带产量提升 5 倍以应对 AI 归档需求，冷存储正成为 AI 时代被低估的瓶颈环节。
-
-5. **开源权重模型持续追赶** — Ripple-65B Preview 宣称在 Agentic Coding 上达到美国开源权重 SOTA，叠加百度文心 5.5 Flash 开源，开源阵营在 Agent 编码赛道加速逼近闭源前沿。
+1. **AI Agent 自主性引发制度性反弹**：美联航明令禁止 AI Agent 代客订票（493 赞），叠加高盛撤下 Claude Code，企业与社会层面对 Agent 权限边界的收紧信号明显。
+2. **AI 生成代码质量争议升温**："AI usage generates a fragile codebase"（632 赞，609 评论）与"Why I will not be using LLMs in my coding"（119 赞，243 评论）形成对垒，开发者社区对 AI 编码的信任分歧加剧。
+3. **AI 泡沫论持续交锋**："I'm not convinced the AI bubble exists"（572 赞，970 评论）成为本周讨论量最高的帖子，而 OpenAI 1.25 万亿估值融资为争论再添燃料。
+4. **本地 AI 基础设施加速**：Apple 将推新 Mac 应用简化本地模型运行（526 赞），叠加华为 MACaQ 等量化工具走热，端侧与本地推理生态正在成型。
+5. **数据中心政策风险浮现**：共和党参议员 Josh Hawley 支持全国性数据中心暂停令，AI 算力扩张面临政治与能耗层面的新变量。
 
 ## 💡 本周洞察
 
-本周最鲜明的信号是 **Agent 从"能力竞赛"转向"信任与工程化竞赛"**：模型侧 GPT‑6 Cyber、Ripple-65B、文心 5.5 Flash 不断刷新能力上限，但真正占据舆论中心的是 Postman 静默装插件、Claude Code 泄露邮箱这类"默认行为"争议——Agent 的权限边界、数据流向和可审计性正成为比 benchmark 更关键的选型标准。与此同时，Minecraft 官僚化实验与 DoorDash 数百单的数据给多 Agent 叙事泼了冷水，提示行业需要从 demo 走向可验证的真实工作流；而字节开源极简 Agent 训练配方、百度开源基座，则意味着"高质量数据 + 简单配方"的开放路线正在压缩自研门槛。对开发者而言，下一阶段的竞争点或许不在模型多强，而在 **谁能把 Agent 的权限、成本与可靠性做成可交付的产品**。
+本周期最鲜明的信号是 **Agent 从"能力展示"进入"责任清算"阶段**：美联航禁订票、高盛撤 Claude Code、Claude Code 泄密事件与微软 Lazarus 后门研究，共同指向同一个问题——当 Agent 拥有真实权限，安全、合规与信任成本开始反噬其扩张速度。与此同时，GitHub 热榜上"去 AI 味""书籍转技能""多 Agent 协作空间"等项目的走红，说明社区正从追求模型能力转向**打磨 Agent 的可用性与可控性**。国内则以双 11 五折促销为代表，Agent 产品进入价格战与大众化获客期，行业竞争焦点正从"卖 Token"转向"卖结果"。
 
 ---
-*🤖 由 AI Radar 自动生成 · 下期播报预计 11.06 后约5天推送*
+*🤖 由 AI Radar 自动生成 · 下期播报预计 11.12 后约5天推送*
